@@ -1,4 +1,5 @@
 ﻿"""PyTorch verification script."""
+
 from typing import Optional
 
 import torch
