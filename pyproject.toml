@@ -41,3 +41,8 @@ pre-commit = "^4.0.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov=mlops_timeseries --cov-report=term-missing"
+testpaths = ["tests"]
+asyncio_mode = "auto"
