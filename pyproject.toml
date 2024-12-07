@@ -26,6 +26,13 @@ seaborn = "^0.13.2"
 httpx = "^0.28.1"
 loguru = "^0.7.3"
 joblib = "^1.4.2"
+ipykernel = "^6.29.5"
+jupyterlab = "^4.3.2"
+datasets = "^3.1.0"
+huggingface-hub = "^0.26.5"
+polars = "^1.16.0"
+lightgbm = "^4.5.0"
+optuna = "^4.1.0"
 
 
 [tool.poetry.group.dev.dependencies]

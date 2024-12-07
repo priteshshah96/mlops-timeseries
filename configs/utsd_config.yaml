@@ -1,0 +1,9 @@
+domain: "energy"  # or any other UTSD domain
+generation: "1G"  # or 2G, 4G, 12G
+sequence_length: 24
+forecast_horizon: 12
+batch_size: 32
+train_ratio: 0.7
+val_ratio: 0.15
+scaling_method: "standard"
+random_seed: 42
