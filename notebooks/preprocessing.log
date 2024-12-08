@@ -1,0 +1,40 @@
+2024-12-07 23:07:15,030 - ERROR - Fatal error: Traceback (most recent call last):
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\2316440851.py", line 206, in main
+    project_root, data_dir = get_project_paths()
+                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\2316440851.py", line 28, in get_project_paths
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+                                                  ^^^^^^^^
+NameError: name '__file__' is not defined
+
+2024-12-07 23:07:32,683 - INFO - Current directory: c:\Users\prite\Desktop\mlops-timeseries\notebooks
+2024-12-07 23:07:32,685 - INFO - Project root: c:\Users\prite\Desktop
+2024-12-07 23:07:32,686 - INFO - Data directory: c:\Users\prite\Desktop\data
+2024-12-07 23:07:32,687 - INFO - Files in data directory:
+2024-12-07 23:07:32,688 - INFO -   - processed_minimal (0.00 MB)
+2024-12-07 23:07:32,689 - ERROR - Fatal error: Traceback (most recent call last):
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\1798246187.py", line 213, in main
+    preprocessor = MinimalPreprocessor(data_dir)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\1798246187.py", line 100, in __init__
+    self.verify_data_files()
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\1798246187.py", line 111, in verify_data_files
+    raise FileNotFoundError(f"Data file not found: {path}")
+FileNotFoundError: Data file not found: c:\Users\prite\Desktop\data\demand.parquet
+
+2024-12-07 23:08:18,441 - INFO - Current directory: c:\Users\prite\Desktop\mlops-timeseries\notebooks
+2024-12-07 23:08:18,443 - INFO - Project root: c:\Users\prite\Desktop
+2024-12-07 23:08:18,443 - INFO - Data directory: c:\Users\prite\Desktop\data
+2024-12-07 23:08:18,444 - INFO - Files in data directory:
+2024-12-07 23:08:18,446 - INFO -   - processed_minimal (0.00 MB)
+2024-12-07 23:08:18,448 - ERROR - Fatal error: Traceback (most recent call last):
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\316031694.py", line 213, in main
+    preprocessor = MinimalPreprocessor(data_dir)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\316031694.py", line 100, in __init__
+    self.verify_data_files()
+  File "C:\Users\prite\AppData\Local\Temp\ipykernel_62692\316031694.py", line 111, in verify_data_files
+    raise FileNotFoundError(f"Data file not found: {path}")
+FileNotFoundError: Data file not found: c:\Users\prite\Desktop\data\demand.parquet
+
+2024-12-07 23:09:45,731 - INFO - Logger is set up.

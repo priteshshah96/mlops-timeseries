@@ -1,0 +1,328 @@
+2024-12-08 02:34:38,117 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 02:34:38,117 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 02:34:38,117 - ModelTrainer - INFO - Loading data...
+2024-12-08 02:34:38,587 - ModelTrainer - INFO - Data loaded in 0.47 seconds
+2024-12-08 02:34:38,587 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 02:34:38,587 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 02:34:38,587 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 02:34:38,587 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 02:34:38,626 - ModelTrainer - INFO - 
+Optimizing lightgbm...
+2024-12-08 02:34:43,544 - ModelTrainer - ERROR - Error in LightGBM trial 1: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:43,605 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:43,775 - ModelTrainer - ERROR - Error in LightGBM trial 3: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:43,980 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,044 - ModelTrainer - ERROR - Error in LightGBM trial 5: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,044 - ModelTrainer - ERROR - Error in LightGBM trial 2: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,046 - ModelTrainer - ERROR - Error in LightGBM trial 0: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,049 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,051 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,052 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,264 - ModelTrainer - ERROR - Error in LightGBM trial 11: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,276 - ModelTrainer - ERROR - Error in LightGBM trial 4: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,286 - ModelTrainer - ERROR - Error in LightGBM trial 12: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,371 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,380 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,386 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,608 - ModelTrainer - ERROR - Error in LightGBM trial 9: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,697 - ModelTrainer - ERROR - Error in LightGBM trial 7: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,717 - ModelTrainer - ERROR - Error in LightGBM trial 10: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,849 - ModelTrainer - ERROR - Error in LightGBM trial 6: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:44,850 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,853 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,964 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:44,969 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:45,254 - ModelTrainer - ERROR - Error in LightGBM trial 8: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:45,269 - ModelTrainer - ERROR - Error in LightGBM trial 14: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:45,632 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:45,805 - ModelTrainer - ERROR - Error in LightGBM trial 13: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:45,809 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:46,305 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:47,649 - ModelTrainer - ERROR - Error in LightGBM trial 17: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:47,885 - ModelTrainer - ERROR - Error in LightGBM trial 16: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:47,886 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:47,965 - ModelTrainer - ERROR - Error in LightGBM trial 18: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:47,994 - ModelTrainer - ERROR - Error in LightGBM trial 15: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:47,995 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:48,245 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:48,251 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:48,640 - ModelTrainer - ERROR - Error in LightGBM trial 20: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:48,640 - ModelTrainer - ERROR - Error in LightGBM trial 19: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:48,707 - ModelTrainer - ERROR - Error in LightGBM trial 21: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:48,824 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:49,219 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:49,247 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:49,509 - ModelTrainer - ERROR - Error in LightGBM trial 22: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:49,598 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:49,742 - ModelTrainer - ERROR - Error in LightGBM trial 23: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:49,844 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:50,390 - ModelTrainer - ERROR - Error in LightGBM trial 24: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:50,398 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:50,679 - ModelTrainer - ERROR - Error in LightGBM trial 25: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:50,822 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:51,200 - ModelTrainer - ERROR - Error in LightGBM trial 27: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:51,283 - ModelTrainer - ERROR - Error in LightGBM trial 26: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:51,300 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:51,398 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:52,069 - ModelTrainer - ERROR - Error in LightGBM trial 29: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:52,267 - ModelTrainer - ERROR - Error in LightGBM trial 28: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:52,321 - ModelTrainer - ERROR - Error in LightGBM trial 30: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:52,348 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:52,408 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:52,504 - ModelTrainer - ERROR - Error in LightGBM trial 31: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:52,510 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:53,059 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:53,208 - ModelTrainer - ERROR - Error in LightGBM trial 32: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:53,231 - ModelTrainer - ERROR - Error in LightGBM trial 33: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:53,299 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:53,386 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:53,802 - ModelTrainer - ERROR - Error in LightGBM trial 36: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:53,893 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:54,127 - ModelTrainer - ERROR - Error in LightGBM trial 34: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:54,429 - ModelTrainer - ERROR - Error in LightGBM trial 35: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:54,463 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:54,586 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:54,734 - ModelTrainer - ERROR - Error in LightGBM trial 37: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:54,943 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:55,911 - ModelTrainer - ERROR - Error in LightGBM trial 38: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:56,079 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:56,223 - ModelTrainer - ERROR - Error in LightGBM trial 40: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:56,278 - ModelTrainer - ERROR - Error in LightGBM trial 39: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:56,301 - ModelTrainer - ERROR - Error in LightGBM trial 41: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:56,455 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:56,702 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:56,715 - ModelTrainer - ERROR - Error in LightGBM trial 42: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:56,835 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:57,100 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:57,973 - ModelTrainer - ERROR - Error in LightGBM trial 44: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:57,973 - ModelTrainer - ERROR - Error in LightGBM trial 45: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:57,982 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:57,983 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,229 - ModelTrainer - ERROR - Error in LightGBM trial 46: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,263 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,320 - ModelTrainer - ERROR - Error in LightGBM trial 43: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,323 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,519 - ModelTrainer - ERROR - Error in LightGBM trial 47: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,543 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,621 - ModelTrainer - ERROR - Error in LightGBM trial 49: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,637 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,701 - ModelTrainer - ERROR - Error in LightGBM trial 48: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,703 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,787 - ModelTrainer - ERROR - Error in LightGBM trial 50: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,788 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,847 - ModelTrainer - ERROR - Error in LightGBM trial 51: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,862 - ModelTrainer - ERROR - Error in LightGBM trial 52: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:34:58,864 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 02:34:58,864 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 252, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+

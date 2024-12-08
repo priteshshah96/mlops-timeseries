@@ -1,0 +1,55 @@
+2024-12-08 13:56:12,817 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 13:56:12,818 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 13:56:12,818 - ModelTrainer - INFO - Loading data...
+2024-12-08 13:56:13,303 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 13:56:13,303 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 13:56:13,303 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 13:56:13,304 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 13:56:13,304 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 13:56:13,394 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 13:56:13,394 - ModelTrainer - INFO - Starting training with completed models: ['lightgbm']
+2024-12-08 13:56:13,394 - ModelTrainer - INFO - Training XGBoost with best parameters...
+2024-12-08 13:56:13,394 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 13:56:13,394 - ModelTrainer - INFO - Standardizing target variable...
+2024-12-08 13:56:13,426 - ModelTrainer - INFO - Training base model...
+2024-12-08 13:56:55,260 - ModelTrainer - INFO - Training MAPIE...
+2024-12-08 13:56:55,494 - ModelTrainer - ERROR - Error in xgboost training: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 5.960464477539063e-08. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+2024-12-08 13:56:55,496 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 465, in train_model_with_mapie
+    mapie_model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 555, in fit
+    self.conformity_score_function_.get_conformity_scores(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 107, in get_conformity_scores
+    self.check_consistency(y, y_pred, conformity_scores, **kwargs)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 150, in check_consistency
+    raise ValueError(
+ValueError: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 5.960464477539063e-08. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+
+2024-12-08 13:56:55,498 - ModelTrainer - ERROR - Error training XGBoost: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 5.960464477539063e-08. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+2024-12-08 13:56:55,499 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 748, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 465, in train_model_with_mapie
+    mapie_model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 555, in fit
+    self.conformity_score_function_.get_conformity_scores(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 107, in get_conformity_scores
+    self.check_consistency(y, y_pred, conformity_scores, **kwargs)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 150, in check_consistency
+    raise ValueError(
+ValueError: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 5.960464477539063e-08. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+
+2024-12-08 13:56:55,499 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 13:56:55,500 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 748, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 465, in train_model_with_mapie
+    mapie_model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 555, in fit
+    self.conformity_score_function_.get_conformity_scores(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 107, in get_conformity_scores
+    self.check_consistency(y, y_pred, conformity_scores, **kwargs)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\conformity_scores\regression.py", line 150, in check_consistency
+    raise ValueError(
+ValueError: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 5.960464477539063e-08. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+

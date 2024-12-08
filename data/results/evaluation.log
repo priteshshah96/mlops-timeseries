@@ -1,0 +1,100 @@
+2024-12-08 14:44:33,012 - INFO - Loaded data splits - Test set shape: (256157, 20)
+2024-12-08 14:44:33,031 - INFO - Loading lightgbm from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\lightgbm_final.pkl
+2024-12-08 14:44:33,563 - INFO - Successfully loaded lightgbm model
+2024-12-08 14:44:33,563 - INFO - Loading xgboost from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\xgboost_final.pkl
+2024-12-08 14:44:33,740 - INFO - Successfully loaded xgboost model
+2024-12-08 14:44:33,740 - INFO - 
+Evaluating lightgbm...
+2024-12-08 14:44:40,105 - INFO - 
+lightgbm Results:
+2024-12-08 14:44:40,106 - INFO - mae: 13.3616
+2024-12-08 14:44:40,108 - INFO - rmse: 35.4216
+2024-12-08 14:44:40,108 - INFO - r2: 0.9979
+2024-12-08 14:44:40,109 - INFO - mape: 19.8406
+2024-12-08 14:44:40,109 - INFO - mean_actual: 293.4718
+2024-12-08 14:44:40,109 - INFO - mean_predicted: 294.0829
+2024-12-08 14:44:40,109 - INFO - std_actual: 770.0638
+2024-12-08 14:44:40,109 - INFO - std_predicted: 769.6535
+2024-12-08 14:44:40,109 - INFO - within_5p_error: 32.2486
+2024-12-08 14:44:40,109 - INFO - within_10p_error: 47.3475
+2024-12-08 14:44:40,109 - INFO - within_20p_error: 65.8780
+2024-12-08 14:44:40,109 - INFO - prediction_interval_coverage: 0.9180
+2024-12-08 14:44:40,110 - INFO - target_coverage: 0.9000
+2024-12-08 14:44:40,110 - INFO - average_interval_width: 65.9169
+2024-12-08 14:44:40,110 - INFO - relative_interval_width: 0.2246
+2024-12-08 14:44:40,110 - INFO - min_interval_width: 65.9169
+2024-12-08 14:44:40,110 - INFO - max_interval_width: 65.9169
+2024-12-08 14:44:40,110 - INFO - interval_sharpness: 65.9169
+2024-12-08 14:44:40,110 - INFO - avg_deviation_from_center: 13.3616
+2024-12-08 14:44:40,110 - INFO - 
+Evaluating xgboost...
+2024-12-08 14:44:40,110 - ERROR - Error in model evaluation: 'MapieRegressor' object is not subscriptable
+2024-12-08 14:46:15,023 - INFO - Loaded data splits - Test set shape: (256157, 20)
+2024-12-08 14:46:15,042 - INFO - Loading lightgbm from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\lightgbm_final.pkl
+2024-12-08 14:46:15,617 - INFO - Successfully loaded lightgbm model
+2024-12-08 14:46:15,618 - INFO - Loading xgboost from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\xgboost_final.pkl
+2024-12-08 14:46:15,747 - INFO - Successfully loaded xgboost model
+2024-12-08 14:46:15,747 - INFO - 
+Evaluating lightgbm...
+2024-12-08 14:46:15,747 - ERROR - Error in model evaluation: name 'MapieRegressor' is not defined
+2024-12-08 14:46:44,531 - INFO - Loaded data splits - Test set shape: (256157, 20)
+2024-12-08 14:46:44,552 - INFO - Loading lightgbm from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\lightgbm_final.pkl
+2024-12-08 14:46:45,097 - INFO - Successfully loaded lightgbm model
+2024-12-08 14:46:45,097 - INFO - Loading xgboost from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\xgboost_final.pkl
+2024-12-08 14:46:45,247 - INFO - Successfully loaded xgboost model
+2024-12-08 14:46:45,247 - INFO - 
+Evaluating lightgbm...
+2024-12-08 14:46:45,247 - ERROR - Error in model evaluation: 'dict' object has no attribute 'predict'
+2024-12-08 14:48:07,863 - INFO - Loaded data splits - Test set shape: (256157, 20)
+2024-12-08 14:48:07,888 - INFO - Loading lightgbm from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\lightgbm_final.pkl
+2024-12-08 14:48:08,395 - INFO - Successfully loaded lightgbm model
+2024-12-08 14:48:08,395 - INFO - Loading xgboost from C:\Users\prite\Desktop\mlops-timeseries\data\checkpoints\xgboost_final.pkl
+2024-12-08 14:48:08,544 - INFO - Successfully loaded xgboost model
+2024-12-08 14:48:08,544 - INFO - 
+Evaluating lightgbm...
+2024-12-08 14:48:14,849 - INFO - 
+lightgbm Results:
+2024-12-08 14:48:14,850 - INFO - mae: 13.3616
+2024-12-08 14:48:14,850 - INFO - rmse: 35.4216
+2024-12-08 14:48:14,850 - INFO - r2: 0.9979
+2024-12-08 14:48:14,850 - INFO - mape: 19.8406
+2024-12-08 14:48:14,851 - INFO - mean_actual: 293.4718
+2024-12-08 14:48:14,851 - INFO - mean_predicted: 294.0829
+2024-12-08 14:48:14,851 - INFO - std_actual: 770.0638
+2024-12-08 14:48:14,851 - INFO - std_predicted: 769.6535
+2024-12-08 14:48:14,851 - INFO - within_5p_error: 32.2486
+2024-12-08 14:48:14,851 - INFO - within_10p_error: 47.3475
+2024-12-08 14:48:14,851 - INFO - within_20p_error: 65.8780
+2024-12-08 14:48:14,852 - INFO - prediction_interval_coverage: 0.9180
+2024-12-08 14:48:14,852 - INFO - target_coverage: 0.9000
+2024-12-08 14:48:14,852 - INFO - average_interval_width: 65.9169
+2024-12-08 14:48:14,852 - INFO - relative_interval_width: 0.2246
+2024-12-08 14:48:14,852 - INFO - min_interval_width: 65.9169
+2024-12-08 14:48:14,852 - INFO - max_interval_width: 65.9169
+2024-12-08 14:48:14,853 - INFO - interval_sharpness: 65.9169
+2024-12-08 14:48:14,853 - INFO - avg_deviation_from_center: 13.3616
+2024-12-08 14:48:14,853 - INFO - 
+Evaluating xgboost...
+2024-12-08 14:48:22,021 - INFO - 
+xgboost Results:
+2024-12-08 14:48:22,021 - INFO - mae: 12.8968
+2024-12-08 14:48:22,022 - INFO - rmse: 35.6610
+2024-12-08 14:48:22,022 - INFO - r2: 0.9979
+2024-12-08 14:48:22,022 - INFO - mape: 17.3562
+2024-12-08 14:48:22,022 - INFO - mean_actual: 293.4718
+2024-12-08 14:48:22,022 - INFO - mean_predicted: 294.0994
+2024-12-08 14:48:22,022 - INFO - std_actual: 770.0638
+2024-12-08 14:48:22,022 - INFO - std_predicted: 768.6785
+2024-12-08 14:48:22,023 - INFO - within_5p_error: 35.0719
+2024-12-08 14:48:22,023 - INFO - within_10p_error: 51.2916
+2024-12-08 14:48:22,023 - INFO - within_20p_error: 69.5433
+2024-12-08 14:48:22,023 - INFO - prediction_interval_coverage: 0.9145
+2024-12-08 14:48:22,023 - INFO - target_coverage: 0.9000
+2024-12-08 14:48:22,023 - INFO - average_interval_width: 60.0834
+2024-12-08 14:48:22,023 - INFO - relative_interval_width: 0.2047
+2024-12-08 14:48:22,023 - INFO - min_interval_width: 60.0830
+2024-12-08 14:48:22,023 - INFO - max_interval_width: 60.0835
+2024-12-08 14:48:22,025 - INFO - interval_sharpness: 60.0834
+2024-12-08 14:48:22,025 - INFO - avg_deviation_from_center: 12.8968
+2024-12-08 14:48:22,025 - INFO - 
+Evaluation completed. Results saved to C:\Users\prite\Desktop\mlops-timeseries\data\results\evaluation_results_20241208_144808.json

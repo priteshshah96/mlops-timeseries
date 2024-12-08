@@ -1,0 +1,12 @@
+defaults:
+  - preprocessing
+  - _self_
+
+paths:
+  raw_data: ${hydra:runtime.cwd}/data/raw
+  processed_data: ${hydra:runtime.cwd}/data/processed
+  models: ${hydra:runtime.cwd}/models
+
+mlflow:
+  tracking_uri: sqlite:///mlruns.db
+  experiment_name: electricity-demand-forecasting

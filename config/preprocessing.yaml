@@ -1,0 +1,20 @@
+preprocessing:
+  start_date: "2011-01-01"  # Beginning of the dataset
+  end_date: "2017-01-31"    # End of the dataset
+  batch_size: 100000
+  features:
+    temporal:
+      - hour
+      - day_of_week
+      - month
+      - is_weekend
+    weather:
+      - temperature_2m
+      - relative_humidity_2m
+      - cloud_cover
+    lags:
+      - 24  # 1 day lag
+      - 168  # 1 week lag
+    rolling_windows:
+      - 24  # 1 day rolling average
+      - 168  # 1 week rolling average

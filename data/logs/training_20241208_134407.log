@@ -1,0 +1,44 @@
+2024-12-08 13:44:07,939 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 13:44:07,940 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 13:44:07,940 - ModelTrainer - INFO - Loading data...
+2024-12-08 13:44:08,431 - ModelTrainer - INFO - Data loaded in 0.49 seconds
+2024-12-08 13:44:08,432 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 13:44:08,432 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 13:44:08,432 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 13:44:08,432 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 13:44:08,506 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 13:44:08,506 - ModelTrainer - INFO - Starting training with completed models: ['lightgbm']
+2024-12-08 13:44:08,506 - ModelTrainer - INFO - Training XGBoost with best parameters...
+2024-12-08 13:44:08,506 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 13:44:08,506 - ModelTrainer - INFO - Training base model...
+2024-12-08 13:44:08,534 - ModelTrainer - ERROR - Error in xgboost training: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 13:44:08,538 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 426, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+
+2024-12-08 13:44:08,538 - ModelTrainer - ERROR - Error training XGBoost: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 13:44:08,539 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 705, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 426, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+
+2024-12-08 13:44:08,539 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 13:44:08,540 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 705, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 426, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+

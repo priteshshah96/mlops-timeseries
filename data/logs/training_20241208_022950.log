@@ -1,0 +1,626 @@
+2024-12-08 02:29:50,059 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 02:29:50,059 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 02:29:50,059 - ModelTrainer - INFO - Loading data...
+2024-12-08 02:29:50,536 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 02:29:50,537 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 02:29:50,537 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 02:29:50,537 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 02:29:50,537 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 02:29:50,572 - ModelTrainer - INFO - 
+Optimizing lightgbm...
+2024-12-08 02:29:50,761 - ModelTrainer - ERROR - Error in LightGBM trial 0: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,774 - ModelTrainer - ERROR - Error in LightGBM trial 6: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,778 - ModelTrainer - ERROR - Error in LightGBM trial 3: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,782 - ModelTrainer - ERROR - Error in LightGBM trial 5: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,785 - ModelTrainer - ERROR - Error in LightGBM trial 7: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,785 - ModelTrainer - ERROR - Error in LightGBM trial 2: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,788 - ModelTrainer - ERROR - Error in LightGBM trial 1: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,792 - ModelTrainer - ERROR - Error in LightGBM trial 8: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,795 - ModelTrainer - ERROR - Error in LightGBM trial 4: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,803 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,803 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,804 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,809 - ModelTrainer - ERROR - Error in LightGBM trial 11: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,813 - ModelTrainer - ERROR - Error in LightGBM trial 14: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,817 - ModelTrainer - ERROR - Error in LightGBM trial 12: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,817 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,817 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,820 - ModelTrainer - ERROR - Error in LightGBM trial 10: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,823 - ModelTrainer - ERROR - Error in LightGBM trial 9: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,825 - ModelTrainer - ERROR - Error in LightGBM trial 13: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,826 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,827 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,827 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,827 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,830 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,830 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,831 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,836 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,837 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,837 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,938 - ModelTrainer - ERROR - Error in LightGBM trial 15: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,950 - ModelTrainer - ERROR - Error in LightGBM trial 17: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,958 - ModelTrainer - ERROR - Error in LightGBM trial 18: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,961 - ModelTrainer - ERROR - Error in LightGBM trial 16: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:50,967 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:50,989 - ModelTrainer - ERROR - Error in LightGBM trial 19: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,001 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,015 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,021 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,033 - ModelTrainer - ERROR - Error in LightGBM trial 20: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,049 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,059 - ModelTrainer - ERROR - Error in LightGBM trial 21: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,083 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,090 - ModelTrainer - ERROR - Error in LightGBM trial 22: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,095 - ModelTrainer - ERROR - Error in LightGBM trial 23: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,096 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,112 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,120 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,134 - ModelTrainer - ERROR - Error in LightGBM trial 24: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,136 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,147 - ModelTrainer - ERROR - Error in LightGBM trial 25: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,152 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,180 - ModelTrainer - ERROR - Error in LightGBM trial 26: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,184 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,231 - ModelTrainer - ERROR - Error in LightGBM trial 27: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,251 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,324 - ModelTrainer - ERROR - Error in LightGBM trial 28: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,331 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,344 - ModelTrainer - ERROR - Error in LightGBM trial 31: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,382 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,392 - ModelTrainer - ERROR - Error in LightGBM trial 32: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,398 - ModelTrainer - ERROR - Error in LightGBM trial 29: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,427 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,443 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,491 - ModelTrainer - ERROR - Error in LightGBM trial 30: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,498 - ModelTrainer - ERROR - Error in LightGBM trial 34: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,515 - ModelTrainer - ERROR - Error in LightGBM trial 36: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,519 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,524 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,528 - ModelTrainer - ERROR - Error in LightGBM trial 37: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,534 - ModelTrainer - ERROR - Error in LightGBM trial 33: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,540 - ModelTrainer - ERROR - Error in LightGBM trial 35: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,545 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,566 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,589 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,594 - ModelTrainer - ERROR - Error in LightGBM trial 38: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,609 - ModelTrainer - ERROR - Error in LightGBM trial 39: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,611 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,638 - ModelTrainer - ERROR - Error in LightGBM trial 40: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,641 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,653 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,660 - ModelTrainer - ERROR - Error in LightGBM trial 41: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,663 - ModelTrainer - ERROR - Error in LightGBM trial 42: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,676 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,701 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,708 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,732 - ModelTrainer - ERROR - Error in LightGBM trial 44: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,739 - ModelTrainer - ERROR - Error in LightGBM trial 43: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,755 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,758 - ModelTrainer - ERROR - Error in LightGBM trial 45: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,766 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,788 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,800 - ModelTrainer - ERROR - Error in LightGBM trial 46: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,813 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,829 - ModelTrainer - ERROR - Error in LightGBM trial 47: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,851 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,866 - ModelTrainer - ERROR - Error in LightGBM trial 48: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,877 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,900 - ModelTrainer - ERROR - Error in LightGBM trial 49: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,920 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,929 - ModelTrainer - ERROR - Error in LightGBM trial 50: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,941 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:51,953 - ModelTrainer - ERROR - Error in LightGBM trial 51: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:51,967 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,001 - ModelTrainer - ERROR - Error in LightGBM trial 52: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,016 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,050 - ModelTrainer - ERROR - Error in LightGBM trial 55: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,054 - ModelTrainer - ERROR - Error in LightGBM trial 54: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,057 - ModelTrainer - ERROR - Error in LightGBM trial 53: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,065 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,078 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,081 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,099 - ModelTrainer - ERROR - Error in LightGBM trial 56: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,119 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,128 - ModelTrainer - ERROR - Error in LightGBM trial 57: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,135 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,199 - ModelTrainer - ERROR - Error in LightGBM trial 58: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,214 - ModelTrainer - ERROR - Error in LightGBM trial 60: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,230 - ModelTrainer - ERROR - Error in LightGBM trial 59: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,234 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,237 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,241 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,244 - ModelTrainer - ERROR - Error in LightGBM trial 61: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,249 - ModelTrainer - ERROR - Error in LightGBM trial 62: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,293 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,295 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,341 - ModelTrainer - ERROR - Error in LightGBM trial 63: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,345 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,382 - ModelTrainer - ERROR - Error in LightGBM trial 64: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,391 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,410 - ModelTrainer - ERROR - Error in LightGBM trial 65: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,427 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,487 - ModelTrainer - ERROR - Error in LightGBM trial 68: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,494 - ModelTrainer - ERROR - Error in LightGBM trial 66: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,507 - ModelTrainer - ERROR - Error in LightGBM trial 67: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,513 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,515 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,534 - ModelTrainer - ERROR - Error in LightGBM trial 69: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,547 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,571 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,581 - ModelTrainer - ERROR - Error in LightGBM trial 70: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,616 - ModelTrainer - ERROR - Error in LightGBM trial 72: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,623 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,633 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,638 - ModelTrainer - ERROR - Error in LightGBM trial 71: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,665 - ModelTrainer - ERROR - Error in LightGBM trial 74: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,687 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,693 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,705 - ModelTrainer - ERROR - Error in LightGBM trial 73: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,717 - ModelTrainer - ERROR - Error in LightGBM trial 75: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,732 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,743 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,757 - ModelTrainer - ERROR - Error in LightGBM trial 78: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,782 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,792 - ModelTrainer - ERROR - Error in LightGBM trial 76: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,805 - ModelTrainer - ERROR - Error in LightGBM trial 77: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,829 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,839 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,844 - ModelTrainer - ERROR - Error in LightGBM trial 79: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,857 - ModelTrainer - ERROR - Error in LightGBM trial 80: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,863 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,880 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,901 - ModelTrainer - ERROR - Error in LightGBM trial 82: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,905 - ModelTrainer - ERROR - Error in LightGBM trial 81: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,916 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,924 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,948 - ModelTrainer - ERROR - Error in LightGBM trial 83: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,959 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:52,974 - ModelTrainer - ERROR - Error in LightGBM trial 84: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:52,986 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,011 - ModelTrainer - ERROR - Error in LightGBM trial 86: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,018 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,034 - ModelTrainer - ERROR - Error in LightGBM trial 85: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,045 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,073 - ModelTrainer - ERROR - Error in LightGBM trial 87: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,088 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,200 - ModelTrainer - ERROR - Error in LightGBM trial 88: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,206 - ModelTrainer - ERROR - Error in LightGBM trial 89: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,213 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,217 - ModelTrainer - ERROR - Error in LightGBM trial 90: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,219 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,227 - ModelTrainer - ERROR - Error in LightGBM trial 91: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,246 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,259 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,295 - ModelTrainer - ERROR - Error in LightGBM trial 92: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,313 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,332 - ModelTrainer - ERROR - Error in LightGBM trial 93: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,340 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,370 - ModelTrainer - ERROR - Error in LightGBM trial 95: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,374 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,413 - ModelTrainer - ERROR - Error in LightGBM trial 96: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,420 - ModelTrainer - ERROR - Error in LightGBM trial 94: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,422 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,422 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,442 - ModelTrainer - ERROR - Error in LightGBM trial 97: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,446 - ModelTrainer - ERROR - Error in LightGBM trial 98: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,448 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,449 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,456 - ModelTrainer - ERROR - Error in LightGBM trial 99: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 02:29:53,456 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 242, in optimize_lightgbm
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 02:29:53,458 - ModelTrainer - INFO - Best lightgbm trial:
+2024-12-08 02:29:53,458 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 02:29:53,459 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 388, in train_models
+    self.logger.info(f"  Value: {study.best_value:.4f}")
+                                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 133, in best_value
+    best_value = self.best_trial.value
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+

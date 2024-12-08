@@ -1,0 +1,22 @@
+2024-12-08 13:52:53,225 - ModelTrainer - ERROR - Error in xgboost training: All MAPIE methods failed
+2024-12-08 13:52:53,226 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+
+2024-12-08 13:52:53,226 - ModelTrainer - ERROR - Error training XGBoost: All MAPIE methods failed
+2024-12-08 13:52:53,227 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 732, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+
+2024-12-08 13:52:53,229 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 13:52:53,229 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 732, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+

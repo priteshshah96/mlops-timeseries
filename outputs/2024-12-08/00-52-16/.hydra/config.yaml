@@ -1,0 +1,27 @@
+preprocessing:
+  start_date: '2011-01-01'
+  end_date: '2017-01-31'
+  batch_size: 100000
+  features:
+    temporal:
+    - hour
+    - day_of_week
+    - month
+    - is_weekend
+    weather:
+    - temperature_2m
+    - relative_humidity_2m
+    - cloud_cover
+    lags:
+    - 24
+    - 168
+    rolling_windows:
+    - 24
+    - 168
+paths:
+  raw_data: ${hydra:runtime.cwd}/data/raw
+  processed_data: ${hydra:runtime.cwd}/data/processed
+  models: ${hydra:runtime.cwd}/models
+mlflow:
+  tracking_uri: sqlite:///mlruns.db
+  experiment_name: electricity-demand-forecasting

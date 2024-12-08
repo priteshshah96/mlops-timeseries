@@ -1,0 +1,100 @@
+2024-12-08 03:58:01,546 - ModelTrainer - ERROR - Error in lightgbm training: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+2024-12-08 03:58:01,572 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+
+2024-12-08 03:58:01,574 - ModelTrainer - ERROR - Error during lightgbm optimization: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+2024-12-08 03:58:01,575 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+
+2024-12-08 03:58:05,200 - ModelTrainer - ERROR - Error in lightgbm training: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+2024-12-08 03:58:05,202 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+
+2024-12-08 03:58:05,204 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 03:58:05,205 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 560, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 365, in train_model_with_mapie
+    mapie_model.fit(self.valid_df[self.features], self.valid_df[self.target])
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 531, in fit
+    groups) = self._check_fit_parameters(X, y, sample_weight, groups)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 430, in _check_fit_parameters
+    self._check_parameters()
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 256, in _check_parameters
+    self._check_method(self.method)
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\mapie\regression\regression.py", line 283, in _check_method
+    raise ValueError(
+ValueError: Invalid method. Allowed values are ['naive', 'base', 'plus', 'minmax'].
+

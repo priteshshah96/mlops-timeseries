@@ -1,0 +1,126 @@
+2024-12-08 02:28:02,344 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 02:28:02,344 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 02:28:02,344 - ModelTrainer - INFO - Loading data...
+2024-12-08 02:28:02,858 - ModelTrainer - INFO - Data loaded in 0.51 seconds
+2024-12-08 02:28:02,860 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 02:28:02,860 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 02:28:02,860 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 02:28:02,860 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 02:28:02,897 - ModelTrainer - INFO - 
+Optimizing lightgbm...
+2024-12-08 02:28:03,086 - ModelTrainer - ERROR - Error in LightGBM trial 3: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,088 - ModelTrainer - ERROR - Error in LightGBM trial 9: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,088 - ModelTrainer - ERROR - Error in LightGBM trial 1: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,088 - ModelTrainer - ERROR - Error in LightGBM trial 0: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,089 - ModelTrainer - ERROR - Error in LightGBM trial 2: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,089 - ModelTrainer - ERROR - Error in LightGBM trial 4: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,104 - ModelTrainer - ERROR - Error in LightGBM trial 6: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,114 - ModelTrainer - ERROR - Error in LightGBM trial 8: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,116 - ModelTrainer - ERROR - Error in LightGBM trial 5: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,127 - ModelTrainer - ERROR - Error in LightGBM trial 11: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,127 - ModelTrainer - ERROR - Error in LightGBM trial 7: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,128 - ModelTrainer - ERROR - Error in LightGBM trial 10: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,144 - ModelTrainer - ERROR - Error in LightGBM trial 12: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,146 - ModelTrainer - ERROR - Error in LightGBM trial 14: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,146 - ModelTrainer - ERROR - Error in LightGBM trial 13: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,219 - ModelTrainer - ERROR - Error in LightGBM trial 15: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,220 - ModelTrainer - ERROR - Error in LightGBM trial 17: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,220 - ModelTrainer - ERROR - Error in LightGBM trial 16: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,279 - ModelTrainer - ERROR - Error in LightGBM trial 19: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,354 - ModelTrainer - ERROR - Error in LightGBM trial 18: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,357 - ModelTrainer - ERROR - Error in LightGBM trial 20: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,365 - ModelTrainer - ERROR - Error in LightGBM trial 21: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,442 - ModelTrainer - ERROR - Error in LightGBM trial 23: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,449 - ModelTrainer - ERROR - Error in LightGBM trial 24: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,463 - ModelTrainer - ERROR - Error in LightGBM trial 22: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,473 - ModelTrainer - ERROR - Error in LightGBM trial 25: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,522 - ModelTrainer - ERROR - Error in LightGBM trial 26: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,547 - ModelTrainer - ERROR - Error in LightGBM trial 28: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,547 - ModelTrainer - ERROR - Error in LightGBM trial 27: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,602 - ModelTrainer - ERROR - Error in LightGBM trial 29: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,716 - ModelTrainer - ERROR - Error in LightGBM trial 30: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,729 - ModelTrainer - ERROR - Error in LightGBM trial 31: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,778 - ModelTrainer - ERROR - Error in LightGBM trial 32: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,813 - ModelTrainer - ERROR - Error in LightGBM trial 33: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,873 - ModelTrainer - ERROR - Error in LightGBM trial 35: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,893 - ModelTrainer - ERROR - Error in LightGBM trial 34: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,893 - ModelTrainer - ERROR - Error in LightGBM trial 36: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,948 - ModelTrainer - ERROR - Error in LightGBM trial 37: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,955 - ModelTrainer - ERROR - Error in LightGBM trial 38: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:03,959 - ModelTrainer - ERROR - Error in LightGBM trial 40: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,007 - ModelTrainer - ERROR - Error in LightGBM trial 39: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,033 - ModelTrainer - ERROR - Error in LightGBM trial 41: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,037 - ModelTrainer - ERROR - Error in LightGBM trial 42: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,045 - ModelTrainer - ERROR - Error in LightGBM trial 44: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,048 - ModelTrainer - ERROR - Error in LightGBM trial 43: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,156 - ModelTrainer - ERROR - Error in LightGBM trial 46: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,163 - ModelTrainer - ERROR - Error in LightGBM trial 45: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,166 - ModelTrainer - ERROR - Error in LightGBM trial 47: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,172 - ModelTrainer - ERROR - Error in LightGBM trial 48: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,244 - ModelTrainer - ERROR - Error in LightGBM trial 49: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,250 - ModelTrainer - ERROR - Error in LightGBM trial 50: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,275 - ModelTrainer - ERROR - Error in LightGBM trial 51: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,373 - ModelTrainer - ERROR - Error in LightGBM trial 52: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,436 - ModelTrainer - ERROR - Error in LightGBM trial 53: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,466 - ModelTrainer - ERROR - Error in LightGBM trial 55: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,491 - ModelTrainer - ERROR - Error in LightGBM trial 54: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,584 - ModelTrainer - ERROR - Error in LightGBM trial 56: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,585 - ModelTrainer - ERROR - Error in LightGBM trial 57: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,593 - ModelTrainer - ERROR - Error in LightGBM trial 59: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,603 - ModelTrainer - ERROR - Error in LightGBM trial 60: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,641 - ModelTrainer - ERROR - Error in LightGBM trial 58: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,658 - ModelTrainer - ERROR - Error in LightGBM trial 62: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,705 - ModelTrainer - ERROR - Error in LightGBM trial 61: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,717 - ModelTrainer - ERROR - Error in LightGBM trial 64: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,745 - ModelTrainer - ERROR - Error in LightGBM trial 65: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,766 - ModelTrainer - ERROR - Error in LightGBM trial 63: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,767 - ModelTrainer - ERROR - Error in LightGBM trial 66: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,824 - ModelTrainer - ERROR - Error in LightGBM trial 67: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,861 - ModelTrainer - ERROR - Error in LightGBM trial 68: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,871 - ModelTrainer - ERROR - Error in LightGBM trial 69: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,900 - ModelTrainer - ERROR - Error in LightGBM trial 70: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:04,961 - ModelTrainer - ERROR - Error in LightGBM trial 71: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,092 - ModelTrainer - ERROR - Error in LightGBM trial 73: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,100 - ModelTrainer - ERROR - Error in LightGBM trial 72: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,131 - ModelTrainer - ERROR - Error in LightGBM trial 75: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,155 - ModelTrainer - ERROR - Error in LightGBM trial 74: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,189 - ModelTrainer - ERROR - Error in LightGBM trial 76: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,212 - ModelTrainer - ERROR - Error in LightGBM trial 78: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,245 - ModelTrainer - ERROR - Error in LightGBM trial 77: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,305 - ModelTrainer - ERROR - Error in LightGBM trial 79: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,317 - ModelTrainer - ERROR - Error in LightGBM trial 80: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,348 - ModelTrainer - ERROR - Error in LightGBM trial 83: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,362 - ModelTrainer - ERROR - Error in LightGBM trial 81: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,407 - ModelTrainer - ERROR - Error in LightGBM trial 84: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,591 - ModelTrainer - ERROR - Error in LightGBM trial 85: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,592 - ModelTrainer - ERROR - Error in LightGBM trial 82: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,592 - ModelTrainer - ERROR - Error in LightGBM trial 86: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,696 - ModelTrainer - ERROR - Error in LightGBM trial 87: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,719 - ModelTrainer - ERROR - Error in LightGBM trial 89: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,765 - ModelTrainer - ERROR - Error in LightGBM trial 88: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,774 - ModelTrainer - ERROR - Error in LightGBM trial 90: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,790 - ModelTrainer - ERROR - Error in LightGBM trial 91: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,797 - ModelTrainer - ERROR - Error in LightGBM trial 92: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,829 - ModelTrainer - ERROR - Error in LightGBM trial 93: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,854 - ModelTrainer - ERROR - Error in LightGBM trial 94: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,948 - ModelTrainer - ERROR - Error in LightGBM trial 95: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,948 - ModelTrainer - ERROR - Error in LightGBM trial 96: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,949 - ModelTrainer - ERROR - Error in LightGBM trial 98: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:05,998 - ModelTrainer - ERROR - Error in LightGBM trial 97: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:06,001 - ModelTrainer - ERROR - Error in LightGBM trial 99: train() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 02:28:06,002 - ModelTrainer - INFO - Best lightgbm trial:
+2024-12-08 02:28:06,002 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 02:28:06,004 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 393, in train_models
+    self.logger.info(f"  Value: {study.best_value:.4f}")
+                                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 133, in best_value
+    best_value = self.best_trial.value
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+

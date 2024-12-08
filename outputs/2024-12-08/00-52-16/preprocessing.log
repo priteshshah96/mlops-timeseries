@@ -1,0 +1,7 @@
+[2024-12-08 00:52:16,683][__main__][INFO] - Raw data path: C:\Users\prite\Desktop\mlops-timeseries\data\raw
+[2024-12-08 00:52:16,683][__main__][INFO] - Processed data path: C:\Users\prite\Desktop\mlops-timeseries\data\processed
+[2024-12-08 00:52:16,683][__main__][INFO] - Models path: C:\Users\prite\Desktop\mlops-timeseries\models
+[2024-12-08 00:52:16,683][__main__][INFO] - Starting preprocessing of data from C:\Users\prite\Desktop\mlops-timeseries\data\raw
+[2024-12-08 00:52:16,683][__main__][INFO] - Processing file: demand.parquet
+[2024-12-08 00:52:16,696][__main__][ERROR] - Error during preprocessing: read_table() got an unexpected keyword argument 'chunksize'
+[2024-12-08 00:52:16,696][__main__][ERROR] - Preprocessing failed: read_table() got an unexpected keyword argument 'chunksize'

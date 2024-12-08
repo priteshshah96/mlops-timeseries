@@ -1,0 +1,38 @@
+2024-12-08 14:00:39,170 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 14:00:39,170 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 14:00:39,170 - ModelTrainer - INFO - Loading data...
+2024-12-08 14:00:39,643 - ModelTrainer - INFO - Data loaded in 0.47 seconds
+2024-12-08 14:00:39,643 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 14:00:39,644 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 14:00:39,644 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 14:00:39,644 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 14:00:39,729 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 14:00:39,729 - ModelTrainer - INFO - Starting training with completed models: ['lightgbm']
+2024-12-08 14:00:39,730 - ModelTrainer - INFO - Training XGBoost with best parameters...
+2024-12-08 14:00:39,730 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 14:00:39,730 - ModelTrainer - INFO - Training base model...
+2024-12-08 14:01:31,046 - ModelTrainer - ERROR - Error in xgboost training: name 'CustomConformityScore' is not defined
+2024-12-08 14:01:31,048 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 448, in train_model_with_mapie
+    conformity_score = CustomConformityScore(
+                       ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'CustomConformityScore' is not defined
+
+2024-12-08 14:01:31,048 - ModelTrainer - ERROR - Error training XGBoost: name 'CustomConformityScore' is not defined
+2024-12-08 14:01:31,050 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 753, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 448, in train_model_with_mapie
+    conformity_score = CustomConformityScore(
+                       ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'CustomConformityScore' is not defined
+
+2024-12-08 14:01:31,051 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 14:01:31,051 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 753, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 448, in train_model_with_mapie
+    conformity_score = CustomConformityScore(
+                       ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'CustomConformityScore' is not defined
+

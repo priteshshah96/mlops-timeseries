@@ -1,0 +1,59 @@
+2024-12-08 13:40:18,976 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 13:40:18,976 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 13:40:18,976 - ModelTrainer - INFO - Loading data...
+2024-12-08 13:40:19,467 - ModelTrainer - INFO - Data loaded in 0.49 seconds
+2024-12-08 13:40:19,467 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 13:40:19,468 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 13:40:19,468 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 13:40:19,468 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 13:40:19,549 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 13:40:19,549 - ModelTrainer - INFO - Resuming training. Completed models: ['lightgbm']
+2024-12-08 13:40:19,599 - ModelTrainer - INFO - 
+Optimizing xgboost...
+2024-12-08 13:40:19,681 - ModelTrainer - INFO - Restored 0 trials for xgboost
+2024-12-08 13:40:19,724 - ModelTrainer - INFO - Current memory usage: 929.59 MB
+2024-12-08 13:40:19,726 - ModelTrainer - INFO - Starting trial 0
+2024-12-08 13:40:19,726 - ModelTrainer - INFO - Starting trial 1
+2024-12-08 13:40:19,727 - ModelTrainer - INFO - Starting trial 2
+2024-12-08 13:40:19,728 - ModelTrainer - INFO - Starting trial 3
+2024-12-08 13:40:19,729 - ModelTrainer - INFO - Starting trial 4
+2024-12-08 13:40:19,730 - ModelTrainer - INFO - Starting trial 5
+2024-12-08 13:40:19,731 - ModelTrainer - INFO - Starting trial 6
+2024-12-08 13:40:19,732 - ModelTrainer - INFO - Starting trial 7
+2024-12-08 13:40:19,733 - ModelTrainer - INFO - Starting trial 8
+2024-12-08 13:40:19,735 - ModelTrainer - INFO - Starting trial 9
+2024-12-08 13:40:19,735 - ModelTrainer - INFO - Starting trial 10
+2024-12-08 13:40:19,736 - ModelTrainer - INFO - Starting trial 11
+2024-12-08 13:40:19,736 - ModelTrainer - INFO - Starting trial 12
+2024-12-08 13:40:19,737 - ModelTrainer - INFO - Starting trial 13
+2024-12-08 13:40:19,737 - ModelTrainer - INFO - Starting trial 14
+2024-12-08 13:40:21,768 - ModelTrainer - INFO - Training XGBoost model for trial 4
+2024-12-08 13:40:21,770 - ModelTrainer - INFO - Training XGBoost model for trial 13
+2024-12-08 13:40:21,778 - ModelTrainer - INFO - Training XGBoost model for trial 1
+2024-12-08 13:40:21,780 - ModelTrainer - INFO - Training XGBoost model for trial 2
+2024-12-08 13:40:21,796 - ModelTrainer - INFO - Training XGBoost model for trial 10
+2024-12-08 13:40:21,798 - ModelTrainer - INFO - Training XGBoost model for trial 5
+2024-12-08 13:40:21,804 - ModelTrainer - INFO - Training XGBoost model for trial 12
+2024-12-08 13:40:21,805 - ModelTrainer - INFO - Training XGBoost model for trial 11
+2024-12-08 13:40:21,807 - ModelTrainer - INFO - Training XGBoost model for trial 3
+2024-12-08 13:40:21,808 - ModelTrainer - INFO - Training XGBoost model for trial 7
+2024-12-08 13:40:21,809 - ModelTrainer - INFO - Training XGBoost model for trial 6
+2024-12-08 13:40:21,810 - ModelTrainer - INFO - Training XGBoost model for trial 8
+2024-12-08 13:40:21,819 - ModelTrainer - INFO - Training XGBoost model for trial 9
+2024-12-08 13:40:21,822 - ModelTrainer - INFO - Training XGBoost model for trial 14
+2024-12-08 13:40:21,850 - ModelTrainer - INFO - Training XGBoost model for trial 0
+2024-12-08 13:40:24,336 - ModelTrainer - INFO - Trial 1 - Iteration 0: validation score = 771.8457
+2024-12-08 13:40:24,530 - ModelTrainer - INFO - Trial 13 - Iteration 0: validation score = 739.2314
+2024-12-08 13:40:25,618 - ModelTrainer - INFO - Trial 5 - Iteration 0: validation score = 770.2492
+2024-12-08 13:40:25,636 - ModelTrainer - INFO - Trial 6 - Iteration 0: validation score = 714.8632
+2024-12-08 13:40:25,655 - ModelTrainer - INFO - Trial 2 - Iteration 0: validation score = 773.6315
+2024-12-08 13:40:25,688 - ModelTrainer - INFO - Trial 12 - Iteration 0: validation score = 710.1235
+2024-12-08 13:40:25,956 - ModelTrainer - INFO - Trial 7 - Iteration 0: validation score = 764.4893
+2024-12-08 13:40:26,189 - ModelTrainer - INFO - Trial 10 - Iteration 0: validation score = 747.2015
+2024-12-08 13:40:26,401 - ModelTrainer - INFO - Trial 3 - Iteration 0: validation score = 745.6654
+2024-12-08 13:40:26,402 - ModelTrainer - INFO - Trial 0 - Iteration 0: validation score = 731.2945
+2024-12-08 13:40:26,586 - ModelTrainer - INFO - Trial 8 - Iteration 0: validation score = 747.3717
+2024-12-08 13:40:26,761 - ModelTrainer - INFO - Trial 11 - Iteration 0: validation score = 772.8343
+2024-12-08 13:40:27,089 - ModelTrainer - INFO - Trial 4 - Iteration 0: validation score = 738.3800
+2024-12-08 13:40:27,142 - ModelTrainer - INFO - Trial 14 - Iteration 0: validation score = 741.1299
+2024-12-08 13:40:27,889 - ModelTrainer - INFO - Trial 9 - Iteration 0: validation score = 734.5931

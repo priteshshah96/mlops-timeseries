@@ -1,0 +1,41 @@
+2024-12-08 13:52:01,108 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 13:52:01,108 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 13:52:01,108 - ModelTrainer - INFO - Loading data...
+2024-12-08 13:52:01,611 - ModelTrainer - INFO - Data loaded in 0.50 seconds
+2024-12-08 13:52:01,611 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 13:52:01,611 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 13:52:01,612 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 13:52:01,612 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 13:52:01,690 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 13:52:01,691 - ModelTrainer - INFO - Starting training with completed models: ['lightgbm']
+2024-12-08 13:52:01,691 - ModelTrainer - INFO - Training XGBoost with best parameters...
+2024-12-08 13:52:01,691 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 13:52:01,691 - ModelTrainer - INFO - Training base model...
+2024-12-08 13:52:52,384 - ModelTrainer - INFO - Attempting MAPIE with base method...
+2024-12-08 13:52:52,667 - ModelTrainer - WARNING - Method base failed: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 6.103515625e-05. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+2024-12-08 13:52:52,667 - ModelTrainer - INFO - Attempting MAPIE with minmax method...
+2024-12-08 13:52:52,947 - ModelTrainer - WARNING - Method minmax failed: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 6.103515625e-05. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+2024-12-08 13:52:52,949 - ModelTrainer - INFO - Attempting MAPIE with naive method...
+2024-12-08 13:52:53,224 - ModelTrainer - WARNING - Method naive failed: The two functions get_conformity_scores and get_estimation_distribution of the BaseRegressionScore class are not consistent. The following equation must be verified: self.get_estimation_distribution(y_pred, self.get_conformity_scores(y, y_pred)) == y. The maximum conformity score is 6.103515625e-05. The eps attribute may need to be increased if you are sure that the two methods are consistent.
+2024-12-08 13:52:53,225 - ModelTrainer - ERROR - Error in xgboost training: All MAPIE methods failed
+2024-12-08 13:52:53,226 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+
+2024-12-08 13:52:53,226 - ModelTrainer - ERROR - Error training XGBoost: All MAPIE methods failed
+2024-12-08 13:52:53,227 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 732, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+
+2024-12-08 13:52:53,229 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 13:52:53,229 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 732, in train_models
+    self.train_model_with_mapie('xgboost', xgboost_best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 475, in train_model_with_mapie
+    raise ValueError("All MAPIE methods failed")
+ValueError: All MAPIE methods failed
+

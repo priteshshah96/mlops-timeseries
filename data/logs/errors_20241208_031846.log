@@ -1,0 +1,46 @@
+2024-12-08 03:36:26,856 - ModelTrainer - ERROR - Error in lightgbm training: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 03:36:26,857 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 03:36:26,858 - ModelTrainer - ERROR - Error during lightgbm optimization: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 03:36:26,860 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 03:36:26,947 - ModelTrainer - ERROR - Error in lightgbm training: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2024-12-08 03:36:26,948 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+2024-12-08 03:36:26,949 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 03:36:26,949 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 536, in train_models
+    self.train_model_with_mapie(model_type, best_params)
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 560, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 333, in train_model_with_mapie
+    model.fit(
+TypeError: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+

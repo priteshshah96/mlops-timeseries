@@ -1,0 +1,5 @@
+[2024-12-08 00:48:00,805][__main__][INFO] - Raw data path: C:\Users\prite\Desktop\mlops-timeseries\data\raw
+[2024-12-08 00:48:00,805][__main__][INFO] - Processed data path: C:\Users\prite\Desktop\mlops-timeseries\data\processed
+[2024-12-08 00:48:00,805][__main__][INFO] - Models path: C:\Users\prite\Desktop\mlops-timeseries\models
+[2024-12-08 00:48:00,805][__main__][INFO] - Starting preprocessing of data from C:\Users\prite\Desktop\mlops-timeseries\data\raw
+[2024-12-08 00:48:00,805][__main__][INFO] - Processing file: demand.parquet

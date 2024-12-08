@@ -1,0 +1,158 @@
+2024-12-08 04:32:11,996 - ModelTrainer - ERROR - Error in XGBoost trial 0: name 'io' is not defined
+2024-12-08 04:32:11,997 - ModelTrainer - ERROR - Error in XGBoost trial 1: name 'io' is not defined
+2024-12-08 04:32:11,999 - ModelTrainer - ERROR - Error in XGBoost trial 2: name 'io' is not defined
+2024-12-08 04:32:12,000 - ModelTrainer - ERROR - Error in XGBoost trial 3: name 'io' is not defined
+2024-12-08 04:32:12,001 - ModelTrainer - ERROR - Error in XGBoost trial 4: name 'io' is not defined
+2024-12-08 04:32:12,002 - ModelTrainer - ERROR - Error in XGBoost trial 5: name 'io' is not defined
+2024-12-08 04:32:12,004 - ModelTrainer - ERROR - Error in XGBoost trial 6: name 'io' is not defined
+2024-12-08 04:32:12,005 - ModelTrainer - ERROR - Error in XGBoost trial 7: name 'io' is not defined
+2024-12-08 04:32:12,006 - ModelTrainer - ERROR - Error in XGBoost trial 8: name 'io' is not defined
+2024-12-08 04:32:12,007 - ModelTrainer - ERROR - Error in XGBoost trial 9: name 'io' is not defined
+2024-12-08 04:32:12,008 - ModelTrainer - ERROR - Error in XGBoost trial 10: name 'io' is not defined
+2024-12-08 04:32:12,009 - ModelTrainer - ERROR - Error in XGBoost trial 11: name 'io' is not defined
+2024-12-08 04:32:12,010 - ModelTrainer - ERROR - Error in XGBoost trial 12: name 'io' is not defined
+2024-12-08 04:32:12,011 - ModelTrainer - ERROR - Error in XGBoost trial 13: name 'io' is not defined
+2024-12-08 04:32:12,012 - ModelTrainer - ERROR - Error in XGBoost trial 14: name 'io' is not defined
+2024-12-08 04:32:12,013 - ModelTrainer - ERROR - Error in XGBoost trial 15: name 'io' is not defined
+2024-12-08 04:32:12,014 - ModelTrainer - ERROR - Error in XGBoost trial 16: name 'io' is not defined
+2024-12-08 04:32:12,031 - ModelTrainer - ERROR - Error in XGBoost trial 17: name 'io' is not defined
+2024-12-08 04:32:12,046 - ModelTrainer - ERROR - Error in XGBoost trial 18: name 'io' is not defined
+2024-12-08 04:32:12,064 - ModelTrainer - ERROR - Error in XGBoost trial 19: name 'io' is not defined
+2024-12-08 04:32:12,082 - ModelTrainer - ERROR - Error in XGBoost trial 20: name 'io' is not defined
+2024-12-08 04:32:12,103 - ModelTrainer - ERROR - Error in XGBoost trial 21: name 'io' is not defined
+2024-12-08 04:32:12,121 - ModelTrainer - ERROR - Error in XGBoost trial 22: name 'io' is not defined
+2024-12-08 04:32:12,140 - ModelTrainer - ERROR - Error in XGBoost trial 23: name 'io' is not defined
+2024-12-08 04:32:12,259 - ModelTrainer - ERROR - Error in XGBoost trial 24: name 'io' is not defined
+2024-12-08 04:32:12,264 - ModelTrainer - ERROR - Error in XGBoost trial 25: name 'io' is not defined
+2024-12-08 04:32:12,311 - ModelTrainer - ERROR - Error in XGBoost trial 26: name 'io' is not defined
+2024-12-08 04:32:12,331 - ModelTrainer - ERROR - Error in XGBoost trial 28: name 'io' is not defined
+2024-12-08 04:32:12,358 - ModelTrainer - ERROR - Error in XGBoost trial 27: name 'io' is not defined
+2024-12-08 04:32:12,373 - ModelTrainer - ERROR - Error in XGBoost trial 29: name 'io' is not defined
+2024-12-08 04:32:12,396 - ModelTrainer - ERROR - Error in XGBoost trial 30: name 'io' is not defined
+2024-12-08 04:32:12,437 - ModelTrainer - ERROR - Error in XGBoost trial 31: name 'io' is not defined
+2024-12-08 04:32:12,473 - ModelTrainer - ERROR - Error in XGBoost trial 32: name 'io' is not defined
+2024-12-08 04:32:12,485 - ModelTrainer - ERROR - Error in XGBoost trial 34: name 'io' is not defined
+2024-12-08 04:32:12,486 - ModelTrainer - ERROR - Error in XGBoost trial 33: name 'io' is not defined
+2024-12-08 04:32:12,523 - ModelTrainer - ERROR - Error in XGBoost trial 35: name 'io' is not defined
+2024-12-08 04:32:12,529 - ModelTrainer - ERROR - Error in XGBoost trial 36: name 'io' is not defined
+2024-12-08 04:32:12,546 - ModelTrainer - ERROR - Error in XGBoost trial 37: name 'io' is not defined
+2024-12-08 04:32:12,571 - ModelTrainer - ERROR - Error in XGBoost trial 38: name 'io' is not defined
+2024-12-08 04:32:12,617 - ModelTrainer - ERROR - Error in XGBoost trial 39: name 'io' is not defined
+2024-12-08 04:32:12,651 - ModelTrainer - ERROR - Error in XGBoost trial 40: name 'io' is not defined
+2024-12-08 04:32:12,676 - ModelTrainer - ERROR - Error in XGBoost trial 41: name 'io' is not defined
+2024-12-08 04:32:12,676 - ModelTrainer - ERROR - Error in XGBoost trial 42: name 'io' is not defined
+2024-12-08 04:32:12,694 - ModelTrainer - ERROR - Error in XGBoost trial 43: name 'io' is not defined
+2024-12-08 04:32:12,702 - ModelTrainer - ERROR - Error in XGBoost trial 45: name 'io' is not defined
+2024-12-08 04:32:12,715 - ModelTrainer - ERROR - Error in XGBoost trial 44: name 'io' is not defined
+2024-12-08 04:32:12,777 - ModelTrainer - ERROR - Error in XGBoost trial 46: name 'io' is not defined
+2024-12-08 04:32:12,781 - ModelTrainer - ERROR - Error in XGBoost trial 48: name 'io' is not defined
+2024-12-08 04:32:12,801 - ModelTrainer - ERROR - Error in XGBoost trial 47: name 'io' is not defined
+2024-12-08 04:32:12,824 - ModelTrainer - ERROR - Error in XGBoost trial 49: name 'io' is not defined
+2024-12-08 04:32:12,837 - ModelTrainer - ERROR - Error in XGBoost trial 50: name 'io' is not defined
+2024-12-08 04:32:12,848 - ModelTrainer - ERROR - Error in XGBoost trial 51: name 'io' is not defined
+2024-12-08 04:32:12,879 - ModelTrainer - ERROR - Error in XGBoost trial 52: name 'io' is not defined
+2024-12-08 04:32:12,879 - ModelTrainer - ERROR - Error in XGBoost trial 53: name 'io' is not defined
+2024-12-08 04:32:12,955 - ModelTrainer - ERROR - Error in XGBoost trial 54: name 'io' is not defined
+2024-12-08 04:32:12,968 - ModelTrainer - ERROR - Error in XGBoost trial 55: name 'io' is not defined
+2024-12-08 04:32:13,014 - ModelTrainer - ERROR - Error in XGBoost trial 56: name 'io' is not defined
+2024-12-08 04:32:13,020 - ModelTrainer - ERROR - Error in XGBoost trial 57: name 'io' is not defined
+2024-12-08 04:32:13,034 - ModelTrainer - ERROR - Error in XGBoost trial 59: name 'io' is not defined
+2024-12-08 04:32:13,044 - ModelTrainer - ERROR - Error in XGBoost trial 58: name 'io' is not defined
+2024-12-08 04:32:13,051 - ModelTrainer - ERROR - Error in XGBoost trial 60: name 'io' is not defined
+2024-12-08 04:32:13,097 - ModelTrainer - ERROR - Error in XGBoost trial 62: name 'io' is not defined
+2024-12-08 04:32:13,107 - ModelTrainer - ERROR - Error in XGBoost trial 61: name 'io' is not defined
+2024-12-08 04:32:13,126 - ModelTrainer - ERROR - Error in XGBoost trial 63: name 'io' is not defined
+2024-12-08 04:32:13,190 - ModelTrainer - ERROR - Error in XGBoost trial 65: name 'io' is not defined
+2024-12-08 04:32:13,197 - ModelTrainer - ERROR - Error in XGBoost trial 64: name 'io' is not defined
+2024-12-08 04:32:13,210 - ModelTrainer - ERROR - Error in XGBoost trial 66: name 'io' is not defined
+2024-12-08 04:32:13,218 - ModelTrainer - ERROR - Error in XGBoost trial 67: name 'io' is not defined
+2024-12-08 04:32:13,225 - ModelTrainer - ERROR - Error in XGBoost trial 68: name 'io' is not defined
+2024-12-08 04:32:13,311 - ModelTrainer - ERROR - Error in XGBoost trial 70: name 'io' is not defined
+2024-12-08 04:32:13,318 - ModelTrainer - ERROR - Error in XGBoost trial 72: name 'io' is not defined
+2024-12-08 04:32:13,327 - ModelTrainer - ERROR - Error in XGBoost trial 69: name 'io' is not defined
+2024-12-08 04:32:13,375 - ModelTrainer - ERROR - Error in XGBoost trial 71: name 'io' is not defined
+2024-12-08 04:32:13,398 - ModelTrainer - ERROR - Error in XGBoost trial 75: name 'io' is not defined
+2024-12-08 04:32:13,432 - ModelTrainer - ERROR - Error in XGBoost trial 73: name 'io' is not defined
+2024-12-08 04:32:13,448 - ModelTrainer - ERROR - Error in XGBoost trial 74: name 'io' is not defined
+2024-12-08 04:32:13,492 - ModelTrainer - ERROR - Error in XGBoost trial 76: name 'io' is not defined
+2024-12-08 04:32:13,508 - ModelTrainer - ERROR - Error in XGBoost trial 78: name 'io' is not defined
+2024-12-08 04:32:13,516 - ModelTrainer - ERROR - Error in XGBoost trial 77: name 'io' is not defined
+2024-12-08 04:32:13,533 - ModelTrainer - ERROR - Error in XGBoost trial 80: name 'io' is not defined
+2024-12-08 04:32:13,562 - ModelTrainer - ERROR - Error in XGBoost trial 79: name 'io' is not defined
+2024-12-08 04:32:13,579 - ModelTrainer - ERROR - Error in XGBoost trial 81: name 'io' is not defined
+2024-12-08 04:32:13,632 - ModelTrainer - ERROR - Error in XGBoost trial 84: name 'io' is not defined
+2024-12-08 04:32:13,632 - ModelTrainer - ERROR - Error in XGBoost trial 82: name 'io' is not defined
+2024-12-08 04:32:13,638 - ModelTrainer - ERROR - Error in XGBoost trial 83: name 'io' is not defined
+2024-12-08 04:32:13,678 - ModelTrainer - ERROR - Error in XGBoost trial 85: name 'io' is not defined
+2024-12-08 04:32:13,691 - ModelTrainer - ERROR - Error in XGBoost trial 86: name 'io' is not defined
+2024-12-08 04:32:13,731 - ModelTrainer - ERROR - Error in XGBoost trial 88: name 'io' is not defined
+2024-12-08 04:32:13,734 - ModelTrainer - ERROR - Error in XGBoost trial 87: name 'io' is not defined
+2024-12-08 04:32:13,769 - ModelTrainer - ERROR - Error in XGBoost trial 90: name 'io' is not defined
+2024-12-08 04:32:13,802 - ModelTrainer - ERROR - Error in XGBoost trial 91: name 'io' is not defined
+2024-12-08 04:32:13,804 - ModelTrainer - ERROR - Error in XGBoost trial 89: name 'io' is not defined
+2024-12-08 04:32:13,820 - ModelTrainer - ERROR - Error in XGBoost trial 92: name 'io' is not defined
+2024-12-08 04:32:13,832 - ModelTrainer - ERROR - Error in XGBoost trial 94: name 'io' is not defined
+2024-12-08 04:32:13,858 - ModelTrainer - ERROR - Error in XGBoost trial 93: name 'io' is not defined
+2024-12-08 04:32:13,860 - ModelTrainer - ERROR - Error in XGBoost trial 95: name 'io' is not defined
+2024-12-08 04:32:13,863 - ModelTrainer - ERROR - Error in XGBoost trial 96: name 'io' is not defined
+2024-12-08 04:32:13,875 - ModelTrainer - ERROR - Error in XGBoost trial 98: name 'io' is not defined
+2024-12-08 04:32:13,875 - ModelTrainer - ERROR - Error in XGBoost trial 97: name 'io' is not defined
+2024-12-08 04:32:13,882 - ModelTrainer - ERROR - Error in XGBoost trial 99: name 'io' is not defined
+2024-12-08 04:32:13,945 - ModelTrainer - ERROR - Error during xgboost optimization: No trials are completed yet.
+2024-12-08 04:32:13,994 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 531, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+2024-12-08 04:32:14,066 - ModelTrainer - ERROR - Error in xgboost training: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:32:14,108 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 531, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 356, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+
+2024-12-08 04:32:14,109 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 04:32:14,110 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 531, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 569, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 356, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+

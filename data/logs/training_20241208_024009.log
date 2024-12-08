@@ -1,0 +1,8 @@
+2024-12-08 02:40:09,360 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 02:40:09,360 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 02:40:09,360 - ModelTrainer - INFO - Loading data...
+2024-12-08 02:40:09,836 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 02:40:09,837 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 02:40:09,837 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 02:40:09,837 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 02:40:09,837 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']

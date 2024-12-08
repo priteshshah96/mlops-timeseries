@@ -1,0 +1,175 @@
+2024-12-08 04:43:02,018 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 04:43:02,018 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 04:43:02,018 - ModelTrainer - INFO - Loading data...
+2024-12-08 04:43:02,497 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 04:43:02,498 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 04:43:02,498 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 04:43:02,498 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 04:43:02,498 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 04:43:02,590 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 04:43:02,591 - ModelTrainer - INFO - Resuming training. Completed models: ['lightgbm']
+2024-12-08 04:43:02,635 - ModelTrainer - INFO - 
+Optimizing xgboost...
+2024-12-08 04:43:02,696 - ModelTrainer - INFO - Restored 0 trials for xgboost
+2024-12-08 04:43:02,736 - ModelTrainer - INFO - Current memory usage: 964.73 MB
+2024-12-08 04:43:02,908 - ModelTrainer - ERROR - Error in XGBoost trial 1: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,909 - ModelTrainer - ERROR - Error in XGBoost trial 0: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,920 - ModelTrainer - ERROR - Error in XGBoost trial 2: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,941 - ModelTrainer - ERROR - Error in XGBoost trial 14: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,941 - ModelTrainer - ERROR - Error in XGBoost trial 10: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,942 - ModelTrainer - ERROR - Error in XGBoost trial 8: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,943 - ModelTrainer - ERROR - Error in XGBoost trial 12: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,943 - ModelTrainer - ERROR - Error in XGBoost trial 6: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,943 - ModelTrainer - ERROR - Error in XGBoost trial 11: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,944 - ModelTrainer - ERROR - Error in XGBoost trial 9: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,945 - ModelTrainer - ERROR - Error in XGBoost trial 3: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,947 - ModelTrainer - ERROR - Error in XGBoost trial 7: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,957 - ModelTrainer - ERROR - Error in XGBoost trial 4: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,957 - ModelTrainer - ERROR - Error in XGBoost trial 5: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:02,958 - ModelTrainer - ERROR - Error in XGBoost trial 13: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,012 - ModelTrainer - ERROR - Error in XGBoost trial 15: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,051 - ModelTrainer - ERROR - Error in XGBoost trial 16: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,052 - ModelTrainer - ERROR - Error in XGBoost trial 17: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,083 - ModelTrainer - ERROR - Error in XGBoost trial 18: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,144 - ModelTrainer - ERROR - Error in XGBoost trial 19: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,162 - ModelTrainer - ERROR - Error in XGBoost trial 22: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,162 - ModelTrainer - ERROR - Error in XGBoost trial 20: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,167 - ModelTrainer - ERROR - Error in XGBoost trial 21: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,205 - ModelTrainer - ERROR - Error in XGBoost trial 23: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,213 - ModelTrainer - ERROR - Error in XGBoost trial 24: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,250 - ModelTrainer - ERROR - Error in XGBoost trial 26: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,263 - ModelTrainer - ERROR - Error in XGBoost trial 25: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,312 - ModelTrainer - ERROR - Error in XGBoost trial 27: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,484 - ModelTrainer - ERROR - Error in XGBoost trial 29: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,497 - ModelTrainer - ERROR - Error in XGBoost trial 28: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,578 - ModelTrainer - ERROR - Error in XGBoost trial 30: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,578 - ModelTrainer - ERROR - Error in XGBoost trial 32: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,579 - ModelTrainer - ERROR - Error in XGBoost trial 31: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,580 - ModelTrainer - ERROR - Error in XGBoost trial 34: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,582 - ModelTrainer - ERROR - Error in XGBoost trial 33: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,712 - ModelTrainer - ERROR - Error in XGBoost trial 35: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,757 - ModelTrainer - ERROR - Error in XGBoost trial 36: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,818 - ModelTrainer - ERROR - Error in XGBoost trial 41: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,820 - ModelTrainer - ERROR - Error in XGBoost trial 37: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,842 - ModelTrainer - ERROR - Error in XGBoost trial 42: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,845 - ModelTrainer - ERROR - Error in XGBoost trial 40: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,850 - ModelTrainer - ERROR - Error in XGBoost trial 39: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,867 - ModelTrainer - ERROR - Error in XGBoost trial 38: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,949 - ModelTrainer - ERROR - Error in XGBoost trial 44: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:03,950 - ModelTrainer - ERROR - Error in XGBoost trial 43: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,032 - ModelTrainer - ERROR - Error in XGBoost trial 45: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,067 - ModelTrainer - ERROR - Error in XGBoost trial 48: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,099 - ModelTrainer - ERROR - Error in XGBoost trial 46: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,111 - ModelTrainer - ERROR - Error in XGBoost trial 47: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,162 - ModelTrainer - ERROR - Error in XGBoost trial 49: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,230 - ModelTrainer - ERROR - Error in XGBoost trial 50: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,239 - ModelTrainer - ERROR - Error in XGBoost trial 51: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,286 - ModelTrainer - ERROR - Error in XGBoost trial 52: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,335 - ModelTrainer - ERROR - Error in XGBoost trial 53: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,358 - ModelTrainer - ERROR - Error in XGBoost trial 55: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,385 - ModelTrainer - ERROR - Error in XGBoost trial 54: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,390 - ModelTrainer - ERROR - Error in XGBoost trial 56: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,416 - ModelTrainer - ERROR - Error in XGBoost trial 57: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,425 - ModelTrainer - ERROR - Error in XGBoost trial 58: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,438 - ModelTrainer - ERROR - Error in XGBoost trial 59: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,515 - ModelTrainer - ERROR - Error in XGBoost trial 61: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,542 - ModelTrainer - ERROR - Error in XGBoost trial 60: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,568 - ModelTrainer - ERROR - Error in XGBoost trial 62: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,591 - ModelTrainer - ERROR - Error in XGBoost trial 63: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,637 - ModelTrainer - ERROR - Error in XGBoost trial 64: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,701 - ModelTrainer - ERROR - Error in XGBoost trial 65: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,706 - ModelTrainer - ERROR - Error in XGBoost trial 66: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,766 - ModelTrainer - ERROR - Error in XGBoost trial 68: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,799 - ModelTrainer - ERROR - Error in XGBoost trial 69: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,836 - ModelTrainer - ERROR - Error in XGBoost trial 67: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,853 - ModelTrainer - ERROR - Error in XGBoost trial 71: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,890 - ModelTrainer - ERROR - Error in XGBoost trial 70: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,913 - ModelTrainer - ERROR - Error in XGBoost trial 72: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,934 - ModelTrainer - ERROR - Error in XGBoost trial 74: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,942 - ModelTrainer - ERROR - Error in XGBoost trial 73: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:04,964 - ModelTrainer - ERROR - Error in XGBoost trial 75: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,006 - ModelTrainer - ERROR - Error in XGBoost trial 76: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,050 - ModelTrainer - ERROR - Error in XGBoost trial 77: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,104 - ModelTrainer - ERROR - Error in XGBoost trial 78: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,159 - ModelTrainer - ERROR - Error in XGBoost trial 79: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,202 - ModelTrainer - ERROR - Error in XGBoost trial 80: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,231 - ModelTrainer - ERROR - Error in XGBoost trial 81: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,308 - ModelTrainer - ERROR - Error in XGBoost trial 82: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,309 - ModelTrainer - ERROR - Error in XGBoost trial 83: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,372 - ModelTrainer - ERROR - Error in XGBoost trial 84: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,380 - ModelTrainer - ERROR - Error in XGBoost trial 85: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,420 - ModelTrainer - ERROR - Error in XGBoost trial 86: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,422 - ModelTrainer - ERROR - Error in XGBoost trial 88: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,490 - ModelTrainer - ERROR - Error in XGBoost trial 89: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,494 - ModelTrainer - ERROR - Error in XGBoost trial 87: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,503 - ModelTrainer - ERROR - Error in XGBoost trial 91: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,505 - ModelTrainer - ERROR - Error in XGBoost trial 90: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,550 - ModelTrainer - ERROR - Error in XGBoost trial 92: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,555 - ModelTrainer - ERROR - Error in XGBoost trial 93: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,618 - ModelTrainer - ERROR - Error in XGBoost trial 96: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,619 - ModelTrainer - ERROR - Error in XGBoost trial 94: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,650 - ModelTrainer - ERROR - Error in XGBoost trial 97: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,660 - ModelTrainer - ERROR - Error in XGBoost trial 95: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,669 - ModelTrainer - ERROR - Error in XGBoost trial 98: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,673 - ModelTrainer - ERROR - Error in XGBoost trial 99: XGBModel.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2024-12-08 04:43:05,847 - ModelTrainer - ERROR - Error during xgboost optimization: No trials are completed yet.
+2024-12-08 04:43:05,849 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 542, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+2024-12-08 04:43:05,850 - ModelTrainer - WARNING - Falling back to default parameters for xgboost
+2024-12-08 04:43:05,897 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 04:43:05,923 - ModelTrainer - ERROR - Error in xgboost training: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:43:05,925 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 542, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 361, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+
+2024-12-08 04:43:05,926 - ModelTrainer - INFO - Failed model parameters: {'objective': 'reg:squarederror', 'max_depth': 6, 'learning_rate': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.001, 'reg_lambda': 0.001, 'tree_method': 'hist'}
+2024-12-08 04:43:05,927 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 04:43:05,927 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 542, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 580, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 361, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+

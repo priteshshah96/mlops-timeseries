@@ -1,0 +1,1747 @@
+2024-12-08 12:22:04,182 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 12:22:04,182 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 12:22:04,182 - ModelTrainer - INFO - Loading data...
+2024-12-08 12:22:04,661 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 12:22:04,662 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 12:22:04,662 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 12:22:04,662 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 12:22:04,662 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 12:22:04,751 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 12:22:04,751 - ModelTrainer - INFO - Resuming training. Completed models: ['lightgbm']
+2024-12-08 12:22:04,795 - ModelTrainer - INFO - 
+Optimizing xgboost...
+2024-12-08 12:22:04,852 - ModelTrainer - INFO - Restored 0 trials for xgboost
+2024-12-08 12:22:04,896 - ModelTrainer - INFO - Current memory usage: 956.98 MB
+2024-12-08 12:22:04,898 - ModelTrainer - INFO - Starting trial 0
+2024-12-08 12:22:04,899 - ModelTrainer - INFO - Starting trial 1
+2024-12-08 12:22:04,901 - ModelTrainer - INFO - Starting trial 2
+2024-12-08 12:22:04,902 - ModelTrainer - INFO - Starting trial 3
+2024-12-08 12:22:04,903 - ModelTrainer - INFO - Starting trial 4
+2024-12-08 12:22:04,904 - ModelTrainer - INFO - Starting trial 5
+2024-12-08 12:22:04,907 - ModelTrainer - INFO - Starting trial 6
+2024-12-08 12:22:04,908 - ModelTrainer - INFO - Starting trial 7
+2024-12-08 12:22:04,910 - ModelTrainer - INFO - Starting trial 8
+2024-12-08 12:22:04,911 - ModelTrainer - INFO - Starting trial 9
+2024-12-08 12:22:04,914 - ModelTrainer - INFO - Starting trial 10
+2024-12-08 12:22:04,917 - ModelTrainer - INFO - Starting trial 11
+2024-12-08 12:22:04,920 - ModelTrainer - INFO - Starting trial 12
+2024-12-08 12:22:04,921 - ModelTrainer - INFO - Starting trial 13
+2024-12-08 12:22:04,953 - ModelTrainer - INFO - Starting trial 14
+2024-12-08 12:22:07,049 - ModelTrainer - INFO - Training XGBoost model for trial 12
+2024-12-08 12:22:07,094 - ModelTrainer - INFO - Training XGBoost model for trial 11
+2024-12-08 12:22:07,095 - ModelTrainer - INFO - Training XGBoost model for trial 14
+2024-12-08 12:22:07,096 - ModelTrainer - INFO - Training XGBoost model for trial 9
+2024-12-08 12:22:07,097 - ModelTrainer - INFO - Training XGBoost model for trial 1
+2024-12-08 12:22:07,097 - ModelTrainer - INFO - Training XGBoost model for trial 6
+2024-12-08 12:22:07,098 - ModelTrainer - INFO - Training XGBoost model for trial 2
+2024-12-08 12:22:07,098 - ModelTrainer - INFO - Training XGBoost model for trial 8
+2024-12-08 12:22:07,098 - ModelTrainer - INFO - Training XGBoost model for trial 0
+2024-12-08 12:22:07,099 - ModelTrainer - INFO - Training XGBoost model for trial 13
+2024-12-08 12:22:07,099 - ModelTrainer - INFO - Training XGBoost model for trial 10
+2024-12-08 12:22:07,099 - ModelTrainer - INFO - Training XGBoost model for trial 3
+2024-12-08 12:22:07,100 - ModelTrainer - INFO - Training XGBoost model for trial 5
+2024-12-08 12:22:07,100 - ModelTrainer - INFO - Training XGBoost model for trial 4
+2024-12-08 12:22:07,101 - ModelTrainer - INFO - Training XGBoost model for trial 7
+2024-12-08 12:22:07,103 - ModelTrainer - ERROR - Error in trial 11: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,104 - ModelTrainer - ERROR - Error in trial 12: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,104 - ModelTrainer - ERROR - Error in trial 9: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,105 - ModelTrainer - ERROR - Error in trial 2: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,105 - ModelTrainer - ERROR - Error in trial 14: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,105 - ModelTrainer - ERROR - Error in trial 6: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,106 - ModelTrainer - ERROR - Error in trial 1: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,106 - ModelTrainer - ERROR - Error in trial 0: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,106 - ModelTrainer - ERROR - Error in trial 10: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,107 - ModelTrainer - ERROR - Error in trial 13: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,107 - ModelTrainer - ERROR - Error in trial 8: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,109 - ModelTrainer - ERROR - Error in trial 3: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,109 - ModelTrainer - ERROR - Error in trial 5: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,111 - ModelTrainer - ERROR - Error in trial 4: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,111 - ModelTrainer - ERROR - Error in trial 7: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:07,159 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,160 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,161 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,162 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,163 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,163 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,163 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,164 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,164 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,165 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,165 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,165 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,166 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,166 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,166 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:07,170 - ModelTrainer - INFO - Starting trial 15
+2024-12-08 12:22:07,174 - ModelTrainer - INFO - Starting trial 16
+2024-12-08 12:22:07,177 - ModelTrainer - INFO - Starting trial 17
+2024-12-08 12:22:07,183 - ModelTrainer - INFO - Starting trial 18
+2024-12-08 12:22:07,263 - ModelTrainer - INFO - Starting trial 19
+2024-12-08 12:22:07,354 - ModelTrainer - INFO - Starting trial 20
+2024-12-08 12:22:07,388 - ModelTrainer - INFO - Starting trial 21
+2024-12-08 12:22:07,417 - ModelTrainer - INFO - Starting trial 22
+2024-12-08 12:22:07,465 - ModelTrainer - INFO - Starting trial 23
+2024-12-08 12:22:07,518 - ModelTrainer - INFO - Starting trial 24
+2024-12-08 12:22:07,595 - ModelTrainer - INFO - Starting trial 25
+2024-12-08 12:22:07,660 - ModelTrainer - INFO - Starting trial 26
+2024-12-08 12:22:07,689 - ModelTrainer - INFO - Starting trial 27
+2024-12-08 12:22:07,823 - ModelTrainer - INFO - Starting trial 28
+2024-12-08 12:22:07,939 - ModelTrainer - INFO - Starting trial 29
+2024-12-08 12:22:08,873 - ModelTrainer - INFO - Training XGBoost model for trial 16
+2024-12-08 12:22:08,881 - ModelTrainer - ERROR - Error in trial 16: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:08,884 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:08,888 - ModelTrainer - INFO - Starting trial 30
+2024-12-08 12:22:08,901 - ModelTrainer - INFO - Training XGBoost model for trial 15
+2024-12-08 12:22:08,947 - ModelTrainer - ERROR - Error in trial 15: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:08,949 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:08,953 - ModelTrainer - INFO - Starting trial 31
+2024-12-08 12:22:09,136 - ModelTrainer - INFO - Training XGBoost model for trial 18
+2024-12-08 12:22:09,138 - ModelTrainer - ERROR - Error in trial 18: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,139 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,149 - ModelTrainer - INFO - Starting trial 32
+2024-12-08 12:22:09,231 - ModelTrainer - INFO - Training XGBoost model for trial 19
+2024-12-08 12:22:09,248 - ModelTrainer - ERROR - Error in trial 19: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,264 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,294 - ModelTrainer - INFO - Starting trial 33
+2024-12-08 12:22:09,356 - ModelTrainer - INFO - Training XGBoost model for trial 17
+2024-12-08 12:22:09,359 - ModelTrainer - ERROR - Error in trial 17: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,373 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,382 - ModelTrainer - INFO - Starting trial 34
+2024-12-08 12:22:09,462 - ModelTrainer - INFO - Training XGBoost model for trial 20
+2024-12-08 12:22:09,463 - ModelTrainer - ERROR - Error in trial 20: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,464 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,466 - ModelTrainer - INFO - Starting trial 35
+2024-12-08 12:22:09,702 - ModelTrainer - INFO - Training XGBoost model for trial 22
+2024-12-08 12:22:09,704 - ModelTrainer - ERROR - Error in trial 22: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,707 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,715 - ModelTrainer - INFO - Starting trial 36
+2024-12-08 12:22:09,754 - ModelTrainer - INFO - Training XGBoost model for trial 23
+2024-12-08 12:22:09,757 - ModelTrainer - ERROR - Error in trial 23: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,758 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,769 - ModelTrainer - INFO - Starting trial 37
+2024-12-08 12:22:09,839 - ModelTrainer - INFO - Training XGBoost model for trial 24
+2024-12-08 12:22:09,841 - ModelTrainer - ERROR - Error in trial 24: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:09,842 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:09,845 - ModelTrainer - INFO - Starting trial 38
+2024-12-08 12:22:10,148 - ModelTrainer - INFO - Training XGBoost model for trial 21
+2024-12-08 12:22:10,151 - ModelTrainer - ERROR - Error in trial 21: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:10,155 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:10,161 - ModelTrainer - INFO - Starting trial 39
+2024-12-08 12:22:10,516 - ModelTrainer - INFO - Training XGBoost model for trial 26
+2024-12-08 12:22:10,520 - ModelTrainer - INFO - Training XGBoost model for trial 25
+2024-12-08 12:22:10,530 - ModelTrainer - ERROR - Error in trial 26: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:10,532 - ModelTrainer - ERROR - Error in trial 25: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:10,533 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:10,534 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:10,544 - ModelTrainer - INFO - Starting trial 40
+2024-12-08 12:22:10,545 - ModelTrainer - INFO - Starting trial 41
+2024-12-08 12:22:11,170 - ModelTrainer - INFO - Training XGBoost model for trial 27
+2024-12-08 12:22:11,175 - ModelTrainer - ERROR - Error in trial 27: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:11,178 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:11,204 - ModelTrainer - INFO - Starting trial 42
+2024-12-08 12:22:11,403 - ModelTrainer - INFO - Training XGBoost model for trial 28
+2024-12-08 12:22:11,409 - ModelTrainer - INFO - Training XGBoost model for trial 29
+2024-12-08 12:22:11,411 - ModelTrainer - ERROR - Error in trial 28: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:11,412 - ModelTrainer - ERROR - Error in trial 29: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:11,416 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:11,418 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:11,433 - ModelTrainer - INFO - Starting trial 43
+2024-12-08 12:22:11,439 - ModelTrainer - INFO - Starting trial 44
+2024-12-08 12:22:11,871 - ModelTrainer - INFO - Training XGBoost model for trial 30
+2024-12-08 12:22:11,876 - ModelTrainer - ERROR - Error in trial 30: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:11,880 - ModelTrainer - INFO - Training XGBoost model for trial 31
+2024-12-08 12:22:11,880 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:11,885 - ModelTrainer - ERROR - Error in trial 31: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:11,888 - ModelTrainer - INFO - Starting trial 45
+2024-12-08 12:22:11,889 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:11,906 - ModelTrainer - INFO - Starting trial 46
+2024-12-08 12:22:12,391 - ModelTrainer - INFO - Training XGBoost model for trial 38
+2024-12-08 12:22:12,449 - ModelTrainer - ERROR - Error in trial 38: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,453 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,493 - ModelTrainer - INFO - Training XGBoost model for trial 33
+2024-12-08 12:22:12,511 - ModelTrainer - INFO - Starting trial 47
+2024-12-08 12:22:12,516 - ModelTrainer - INFO - Training XGBoost model for trial 34
+2024-12-08 12:22:12,519 - ModelTrainer - INFO - Training XGBoost model for trial 35
+2024-12-08 12:22:12,541 - ModelTrainer - INFO - Training XGBoost model for trial 37
+2024-12-08 12:22:12,549 - ModelTrainer - INFO - Training XGBoost model for trial 40
+2024-12-08 12:22:12,551 - ModelTrainer - ERROR - Error in trial 33: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,558 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,558 - ModelTrainer - ERROR - Error in trial 35: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,565 - ModelTrainer - ERROR - Error in trial 34: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,567 - ModelTrainer - INFO - Training XGBoost model for trial 36
+2024-12-08 12:22:12,569 - ModelTrainer - ERROR - Error in trial 37: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,571 - ModelTrainer - ERROR - Error in trial 40: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,607 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,608 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,618 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,623 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,635 - ModelTrainer - INFO - Starting trial 48
+2024-12-08 12:22:12,657 - ModelTrainer - ERROR - Error in trial 36: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,680 - ModelTrainer - INFO - Starting trial 49
+2024-12-08 12:22:12,701 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:12,792 - ModelTrainer - INFO - Starting trial 50
+2024-12-08 12:22:12,795 - ModelTrainer - INFO - Training XGBoost model for trial 39
+2024-12-08 12:22:12,850 - ModelTrainer - INFO - Starting trial 51
+2024-12-08 12:22:12,894 - ModelTrainer - INFO - Starting trial 52
+2024-12-08 12:22:12,952 - ModelTrainer - INFO - Starting trial 53
+2024-12-08 12:22:12,959 - ModelTrainer - ERROR - Error in trial 39: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:12,980 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:13,049 - ModelTrainer - INFO - Starting trial 54
+2024-12-08 12:22:13,065 - ModelTrainer - INFO - Training XGBoost model for trial 42
+2024-12-08 12:22:13,072 - ModelTrainer - INFO - Training XGBoost model for trial 32
+2024-12-08 12:22:13,125 - ModelTrainer - ERROR - Error in trial 42: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:13,126 - ModelTrainer - ERROR - Error in trial 32: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:13,154 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:13,188 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:13,229 - ModelTrainer - INFO - Starting trial 55
+2024-12-08 12:22:13,318 - ModelTrainer - INFO - Starting trial 56
+2024-12-08 12:22:13,840 - ModelTrainer - INFO - Training XGBoost model for trial 41
+2024-12-08 12:22:13,905 - ModelTrainer - ERROR - Error in trial 41: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:13,910 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:13,917 - ModelTrainer - INFO - Starting trial 57
+2024-12-08 12:22:14,065 - ModelTrainer - INFO - Training XGBoost model for trial 45
+2024-12-08 12:22:14,104 - ModelTrainer - ERROR - Error in trial 45: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:14,118 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:14,128 - ModelTrainer - INFO - Starting trial 58
+2024-12-08 12:22:14,165 - ModelTrainer - INFO - Training XGBoost model for trial 43
+2024-12-08 12:22:14,252 - ModelTrainer - ERROR - Error in trial 43: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:14,271 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:14,302 - ModelTrainer - INFO - Starting trial 59
+2024-12-08 12:22:14,720 - ModelTrainer - INFO - Training XGBoost model for trial 47
+2024-12-08 12:22:14,725 - ModelTrainer - ERROR - Error in trial 47: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:14,729 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:14,746 - ModelTrainer - INFO - Starting trial 60
+2024-12-08 12:22:14,865 - ModelTrainer - INFO - Training XGBoost model for trial 46
+2024-12-08 12:22:14,869 - ModelTrainer - ERROR - Error in trial 46: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:14,873 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:14,896 - ModelTrainer - INFO - Starting trial 61
+2024-12-08 12:22:15,458 - ModelTrainer - INFO - Training XGBoost model for trial 49
+2024-12-08 12:22:15,556 - ModelTrainer - ERROR - Error in trial 49: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:15,571 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:15,669 - ModelTrainer - INFO - Starting trial 62
+2024-12-08 12:22:15,885 - ModelTrainer - INFO - Training XGBoost model for trial 52
+2024-12-08 12:22:15,888 - ModelTrainer - INFO - Training XGBoost model for trial 51
+2024-12-08 12:22:15,894 - ModelTrainer - INFO - Training XGBoost model for trial 53
+2024-12-08 12:22:15,901 - ModelTrainer - INFO - Training XGBoost model for trial 50
+2024-12-08 12:22:15,904 - ModelTrainer - INFO - Training XGBoost model for trial 48
+2024-12-08 12:22:15,979 - ModelTrainer - INFO - Training XGBoost model for trial 54
+2024-12-08 12:22:16,001 - ModelTrainer - ERROR - Error in trial 52: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,037 - ModelTrainer - ERROR - Error in trial 53: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,038 - ModelTrainer - ERROR - Error in trial 51: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,041 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,042 - ModelTrainer - ERROR - Error in trial 48: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,043 - ModelTrainer - ERROR - Error in trial 50: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,045 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,047 - ModelTrainer - ERROR - Error in trial 54: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,049 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,070 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,078 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,092 - ModelTrainer - INFO - Starting trial 63
+2024-12-08 12:22:16,094 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,102 - ModelTrainer - INFO - Starting trial 64
+2024-12-08 12:22:16,126 - ModelTrainer - INFO - Training XGBoost model for trial 56
+2024-12-08 12:22:16,143 - ModelTrainer - INFO - Starting trial 65
+2024-12-08 12:22:16,180 - ModelTrainer - INFO - Starting trial 66
+2024-12-08 12:22:16,188 - ModelTrainer - INFO - Training XGBoost model for trial 55
+2024-12-08 12:22:16,193 - ModelTrainer - ERROR - Error in trial 56: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,222 - ModelTrainer - INFO - Training XGBoost model for trial 57
+2024-12-08 12:22:16,271 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,281 - ModelTrainer - INFO - Starting trial 67
+2024-12-08 12:22:16,300 - ModelTrainer - INFO - Training XGBoost model for trial 44
+2024-12-08 12:22:16,347 - ModelTrainer - ERROR - Error in trial 55: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,368 - ModelTrainer - INFO - Starting trial 68
+2024-12-08 12:22:16,413 - ModelTrainer - ERROR - Error in trial 57: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,420 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,469 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,474 - ModelTrainer - INFO - Training XGBoost model for trial 58
+2024-12-08 12:22:16,478 - ModelTrainer - INFO - Starting trial 69
+2024-12-08 12:22:16,488 - ModelTrainer - ERROR - Error in trial 44: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,522 - ModelTrainer - INFO - Training XGBoost model for trial 59
+2024-12-08 12:22:16,584 - ModelTrainer - INFO - Starting trial 70
+2024-12-08 12:22:16,603 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,605 - ModelTrainer - INFO - Training XGBoost model for trial 60
+2024-12-08 12:22:16,624 - ModelTrainer - ERROR - Error in trial 58: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,650 - ModelTrainer - INFO - Starting trial 71
+2024-12-08 12:22:16,689 - ModelTrainer - ERROR - Error in trial 59: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,719 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,739 - ModelTrainer - ERROR - Error in trial 60: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:16,740 - ModelTrainer - INFO - Starting trial 72
+2024-12-08 12:22:16,759 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,770 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:16,856 - ModelTrainer - INFO - Starting trial 73
+2024-12-08 12:22:16,902 - ModelTrainer - INFO - Starting trial 74
+2024-12-08 12:22:16,926 - ModelTrainer - INFO - Starting trial 75
+2024-12-08 12:22:17,801 - ModelTrainer - INFO - Training XGBoost model for trial 62
+2024-12-08 12:22:17,826 - ModelTrainer - ERROR - Error in trial 62: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:17,830 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:17,838 - ModelTrainer - INFO - Starting trial 76
+2024-12-08 12:22:18,277 - ModelTrainer - INFO - Training XGBoost model for trial 65
+2024-12-08 12:22:18,286 - ModelTrainer - ERROR - Error in trial 65: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:18,289 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:18,351 - ModelTrainer - INFO - Starting trial 77
+2024-12-08 12:22:18,683 - ModelTrainer - INFO - Training XGBoost model for trial 63
+2024-12-08 12:22:18,690 - ModelTrainer - ERROR - Error in trial 63: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:18,694 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:18,739 - ModelTrainer - INFO - Starting trial 78
+2024-12-08 12:22:18,741 - ModelTrainer - INFO - Training XGBoost model for trial 64
+2024-12-08 12:22:18,768 - ModelTrainer - ERROR - Error in trial 64: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:18,845 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:18,878 - ModelTrainer - INFO - Starting trial 79
+2024-12-08 12:22:18,980 - ModelTrainer - INFO - Training XGBoost model for trial 67
+2024-12-08 12:22:19,033 - ModelTrainer - ERROR - Error in trial 67: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,080 - ModelTrainer - INFO - Training XGBoost model for trial 68
+2024-12-08 12:22:19,086 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,105 - ModelTrainer - INFO - Training XGBoost model for trial 66
+2024-12-08 12:22:19,115 - ModelTrainer - INFO - Starting trial 80
+2024-12-08 12:22:19,180 - ModelTrainer - ERROR - Error in trial 68: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,199 - ModelTrainer - INFO - Training XGBoost model for trial 69
+2024-12-08 12:22:19,206 - ModelTrainer - INFO - Training XGBoost model for trial 61
+2024-12-08 12:22:19,219 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,355 - ModelTrainer - ERROR - Error in trial 66: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,372 - ModelTrainer - INFO - Starting trial 81
+2024-12-08 12:22:19,442 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,463 - ModelTrainer - ERROR - Error in trial 61: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,501 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,503 - ModelTrainer - ERROR - Error in trial 69: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,550 - ModelTrainer - INFO - Starting trial 82
+2024-12-08 12:22:19,576 - ModelTrainer - INFO - Training XGBoost model for trial 71
+2024-12-08 12:22:19,577 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,610 - ModelTrainer - INFO - Starting trial 83
+2024-12-08 12:22:19,630 - ModelTrainer - INFO - Training XGBoost model for trial 72
+2024-12-08 12:22:19,648 - ModelTrainer - INFO - Starting trial 84
+2024-12-08 12:22:19,651 - ModelTrainer - INFO - Training XGBoost model for trial 73
+2024-12-08 12:22:19,683 - ModelTrainer - INFO - Training XGBoost model for trial 74
+2024-12-08 12:22:19,703 - ModelTrainer - INFO - Training XGBoost model for trial 75
+2024-12-08 12:22:19,776 - ModelTrainer - ERROR - Error in trial 71: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,790 - ModelTrainer - ERROR - Error in trial 74: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,808 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,811 - ModelTrainer - INFO - Training XGBoost model for trial 70
+2024-12-08 12:22:19,814 - ModelTrainer - ERROR - Error in trial 72: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,814 - ModelTrainer - ERROR - Error in trial 75: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,814 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,822 - ModelTrainer - ERROR - Error in trial 73: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,860 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,868 - ModelTrainer - INFO - Starting trial 85
+2024-12-08 12:22:19,876 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,890 - ModelTrainer - ERROR - Error in trial 70: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:19,908 - ModelTrainer - INFO - Starting trial 86
+2024-12-08 12:22:19,915 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:19,931 - ModelTrainer - INFO - Training XGBoost model for trial 76
+2024-12-08 12:22:19,969 - ModelTrainer - INFO - Starting trial 87
+2024-12-08 12:22:20,007 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:20,022 - ModelTrainer - INFO - Starting trial 88
+2024-12-08 12:22:20,159 - ModelTrainer - INFO - Starting trial 90
+2024-12-08 12:22:20,172 - ModelTrainer - ERROR - Error in trial 76: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:20,243 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:20,281 - ModelTrainer - INFO - Starting trial 91
+2024-12-08 12:22:20,363 - ModelTrainer - INFO - Training XGBoost model for trial 77
+2024-12-08 12:22:20,475 - ModelTrainer - ERROR - Error in trial 77: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:20,510 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:20,556 - ModelTrainer - INFO - Starting trial 92
+2024-12-08 12:22:20,716 - ModelTrainer - INFO - Starting trial 89
+2024-12-08 12:22:21,320 - ModelTrainer - INFO - Training XGBoost model for trial 79
+2024-12-08 12:22:21,323 - ModelTrainer - ERROR - Error in trial 79: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:21,327 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:21,338 - ModelTrainer - INFO - Starting trial 93
+2024-12-08 12:22:21,342 - ModelTrainer - INFO - Training XGBoost model for trial 78
+2024-12-08 12:22:21,358 - ModelTrainer - ERROR - Error in trial 78: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:21,371 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:21,492 - ModelTrainer - INFO - Starting trial 94
+2024-12-08 12:22:21,761 - ModelTrainer - INFO - Training XGBoost model for trial 80
+2024-12-08 12:22:21,828 - ModelTrainer - ERROR - Error in trial 80: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:21,836 - ModelTrainer - INFO - Training XGBoost model for trial 81
+2024-12-08 12:22:21,837 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:21,890 - ModelTrainer - ERROR - Error in trial 81: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:21,895 - ModelTrainer - INFO - Starting trial 95
+2024-12-08 12:22:21,904 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:21,950 - ModelTrainer - INFO - Starting trial 96
+2024-12-08 12:22:22,252 - ModelTrainer - INFO - Training XGBoost model for trial 82
+2024-12-08 12:22:22,311 - ModelTrainer - ERROR - Error in trial 82: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:22,340 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:22,380 - ModelTrainer - INFO - Starting trial 97
+2024-12-08 12:22:22,492 - ModelTrainer - INFO - Training XGBoost model for trial 84
+2024-12-08 12:22:22,504 - ModelTrainer - INFO - Training XGBoost model for trial 83
+2024-12-08 12:22:22,561 - ModelTrainer - ERROR - Error in trial 83: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:22,566 - ModelTrainer - ERROR - Error in trial 84: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:22,592 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:22,594 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:22,625 - ModelTrainer - INFO - Starting trial 98
+2024-12-08 12:22:22,652 - ModelTrainer - INFO - Starting trial 99
+2024-12-08 12:22:22,873 - ModelTrainer - INFO - Training XGBoost model for trial 86
+2024-12-08 12:22:23,080 - ModelTrainer - ERROR - Error in trial 86: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,105 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,207 - ModelTrainer - INFO - Training XGBoost model for trial 87
+2024-12-08 12:22:23,230 - ModelTrainer - INFO - Training XGBoost model for trial 88
+2024-12-08 12:22:23,240 - ModelTrainer - INFO - Training XGBoost model for trial 89
+2024-12-08 12:22:23,241 - ModelTrainer - INFO - Training XGBoost model for trial 92
+2024-12-08 12:22:23,243 - ModelTrainer - INFO - Training XGBoost model for trial 91
+2024-12-08 12:22:23,247 - ModelTrainer - INFO - Training XGBoost model for trial 85
+2024-12-08 12:22:23,290 - ModelTrainer - INFO - Training XGBoost model for trial 90
+2024-12-08 12:22:23,292 - ModelTrainer - ERROR - Error in trial 87: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,299 - ModelTrainer - ERROR - Error in trial 88: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,308 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,310 - ModelTrainer - ERROR - Error in trial 92: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,311 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,339 - ModelTrainer - ERROR - Error in trial 91: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,343 - ModelTrainer - ERROR - Error in trial 89: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,343 - ModelTrainer - ERROR - Error in trial 85: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,343 - ModelTrainer - ERROR - Error in trial 90: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,350 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,366 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,367 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,371 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,380 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,487 - ModelTrainer - INFO - Training XGBoost model for trial 93
+2024-12-08 12:22:23,494 - ModelTrainer - ERROR - Error in trial 93: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,499 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,600 - ModelTrainer - INFO - Training XGBoost model for trial 94
+2024-12-08 12:22:23,602 - ModelTrainer - ERROR - Error in trial 94: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,603 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:23,987 - ModelTrainer - INFO - Training XGBoost model for trial 95
+2024-12-08 12:22:23,990 - ModelTrainer - ERROR - Error in trial 95: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:23,992 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:24,228 - ModelTrainer - INFO - Training XGBoost model for trial 97
+2024-12-08 12:22:24,230 - ModelTrainer - ERROR - Error in trial 97: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:24,231 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:24,414 - ModelTrainer - INFO - Training XGBoost model for trial 96
+2024-12-08 12:22:24,421 - ModelTrainer - ERROR - Error in trial 96: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:24,426 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:24,492 - ModelTrainer - INFO - Training XGBoost model for trial 99
+2024-12-08 12:22:24,494 - ModelTrainer - ERROR - Error in trial 99: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:24,495 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:24,506 - ModelTrainer - INFO - Training XGBoost model for trial 98
+2024-12-08 12:22:24,507 - ModelTrainer - ERROR - Error in trial 98: callback must be an instance of `TrainingCallback`.
+2024-12-08 12:22:24,508 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 358, in optimize_xgboost
+    bst = xgb.train(
+          ^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\training.py", line 167, in train
+    cb_container = CallbackContainer(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\callback.py", line 159, in __init__
+    raise TypeError("callback must be an instance of `TrainingCallback`.")
+TypeError: callback must be an instance of `TrainingCallback`.
+
+2024-12-08 12:22:25,403 - ModelTrainer - ERROR - Error during xgboost optimization: No trials are completed yet.
+2024-12-08 12:22:25,410 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 612, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+2024-12-08 12:22:25,411 - ModelTrainer - WARNING - Falling back to default parameters for xgboost
+2024-12-08 12:22:25,562 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 12:22:25,563 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 612, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 650, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelTrainer' object has no attribute 'train_model_with_mapie'
+

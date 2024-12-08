@@ -1,0 +1,174 @@
+2024-12-08 04:45:12,122 - ModelTrainer - INFO - Initialized ModelTrainer with 100 trials and 15 workers
+2024-12-08 04:45:12,123 - ModelTrainer - INFO - Starting overnight training pipeline...
+2024-12-08 04:45:12,123 - ModelTrainer - INFO - Loading data...
+2024-12-08 04:45:12,605 - ModelTrainer - INFO - Data loaded in 0.48 seconds
+2024-12-08 04:45:12,606 - ModelTrainer - INFO - Train shape: (2431886, 20)
+2024-12-08 04:45:12,606 - ModelTrainer - INFO - Valid shape: (256128, 20)
+2024-12-08 04:45:12,606 - ModelTrainer - INFO - Test shape: (256157, 20)
+2024-12-08 04:45:12,606 - ModelTrainer - INFO - Features: ['hour', 'day_of_week', 'month', 'is_weekend', 'temperature_2m', 'relative_humidity_2m', 'wind_speed_10m', 'building_class_encoded', 'cluster_size', 'demand_lag_24h', 'demand_lag_168h', 'demand_rolling_mean_24h']
+2024-12-08 04:45:12,682 - ModelTrainer - INFO - Found existing checkpoint
+2024-12-08 04:45:12,682 - ModelTrainer - INFO - Resuming training. Completed models: ['lightgbm']
+2024-12-08 04:45:12,721 - ModelTrainer - INFO - 
+Optimizing xgboost...
+2024-12-08 04:45:12,783 - ModelTrainer - INFO - Restored 0 trials for xgboost
+2024-12-08 04:45:12,825 - ModelTrainer - INFO - Current memory usage: 950.29 MB
+2024-12-08 04:45:12,989 - ModelTrainer - ERROR - Error in XGBoost trial 5: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:12,990 - ModelTrainer - ERROR - Error in XGBoost trial 2: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:12,991 - ModelTrainer - ERROR - Error in XGBoost trial 1: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:12,997 - ModelTrainer - ERROR - Error in XGBoost trial 3: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,006 - ModelTrainer - ERROR - Error in XGBoost trial 4: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,007 - ModelTrainer - ERROR - Error in XGBoost trial 0: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,008 - ModelTrainer - ERROR - Error in XGBoost trial 10: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,008 - ModelTrainer - ERROR - Error in XGBoost trial 6: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,021 - ModelTrainer - ERROR - Error in XGBoost trial 8: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,041 - ModelTrainer - ERROR - Error in XGBoost trial 9: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,044 - ModelTrainer - ERROR - Error in XGBoost trial 7: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,047 - ModelTrainer - ERROR - Error in XGBoost trial 12: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,047 - ModelTrainer - ERROR - Error in XGBoost trial 11: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,058 - ModelTrainer - ERROR - Error in XGBoost trial 13: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,071 - ModelTrainer - ERROR - Error in XGBoost trial 14: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,126 - ModelTrainer - ERROR - Error in XGBoost trial 15: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,163 - ModelTrainer - ERROR - Error in XGBoost trial 17: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,165 - ModelTrainer - ERROR - Error in XGBoost trial 16: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,184 - ModelTrainer - ERROR - Error in XGBoost trial 18: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,222 - ModelTrainer - ERROR - Error in XGBoost trial 20: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,236 - ModelTrainer - ERROR - Error in XGBoost trial 19: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,249 - ModelTrainer - ERROR - Error in XGBoost trial 21: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,291 - ModelTrainer - ERROR - Error in XGBoost trial 22: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,295 - ModelTrainer - ERROR - Error in XGBoost trial 23: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,349 - ModelTrainer - ERROR - Error in XGBoost trial 25: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,354 - ModelTrainer - ERROR - Error in XGBoost trial 24: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,370 - ModelTrainer - ERROR - Error in XGBoost trial 26: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,429 - ModelTrainer - ERROR - Error in XGBoost trial 27: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,511 - ModelTrainer - ERROR - Error in XGBoost trial 28: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,535 - ModelTrainer - ERROR - Error in XGBoost trial 29: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,547 - ModelTrainer - ERROR - Error in XGBoost trial 30: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,623 - ModelTrainer - ERROR - Error in XGBoost trial 31: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,736 - ModelTrainer - ERROR - Error in XGBoost trial 34: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,747 - ModelTrainer - ERROR - Error in XGBoost trial 33: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,752 - ModelTrainer - ERROR - Error in XGBoost trial 32: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,806 - ModelTrainer - ERROR - Error in XGBoost trial 35: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,807 - ModelTrainer - ERROR - Error in XGBoost trial 36: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,895 - ModelTrainer - ERROR - Error in XGBoost trial 37: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,903 - ModelTrainer - ERROR - Error in XGBoost trial 39: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,904 - ModelTrainer - ERROR - Error in XGBoost trial 38: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,914 - ModelTrainer - ERROR - Error in XGBoost trial 40: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,945 - ModelTrainer - ERROR - Error in XGBoost trial 41: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:13,960 - ModelTrainer - ERROR - Error in XGBoost trial 42: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,018 - ModelTrainer - ERROR - Error in XGBoost trial 43: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,063 - ModelTrainer - ERROR - Error in XGBoost trial 45: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,064 - ModelTrainer - ERROR - Error in XGBoost trial 44: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,131 - ModelTrainer - ERROR - Error in XGBoost trial 46: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,216 - ModelTrainer - ERROR - Error in XGBoost trial 48: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,217 - ModelTrainer - ERROR - Error in XGBoost trial 50: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,264 - ModelTrainer - ERROR - Error in XGBoost trial 47: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,268 - ModelTrainer - ERROR - Error in XGBoost trial 49: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,268 - ModelTrainer - ERROR - Error in XGBoost trial 51: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,299 - ModelTrainer - ERROR - Error in XGBoost trial 52: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,341 - ModelTrainer - ERROR - Error in XGBoost trial 53: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,356 - ModelTrainer - ERROR - Error in XGBoost trial 54: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,372 - ModelTrainer - ERROR - Error in XGBoost trial 56: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,412 - ModelTrainer - ERROR - Error in XGBoost trial 55: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,413 - ModelTrainer - ERROR - Error in XGBoost trial 57: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,415 - ModelTrainer - ERROR - Error in XGBoost trial 59: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,437 - ModelTrainer - ERROR - Error in XGBoost trial 60: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,457 - ModelTrainer - ERROR - Error in XGBoost trial 58: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,567 - ModelTrainer - ERROR - Error in XGBoost trial 61: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,568 - ModelTrainer - ERROR - Error in XGBoost trial 62: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,596 - ModelTrainer - ERROR - Error in XGBoost trial 64: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,603 - ModelTrainer - ERROR - Error in XGBoost trial 63: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,710 - ModelTrainer - ERROR - Error in XGBoost trial 66: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,711 - ModelTrainer - ERROR - Error in XGBoost trial 65: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,772 - ModelTrainer - ERROR - Error in XGBoost trial 68: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,780 - ModelTrainer - ERROR - Error in XGBoost trial 67: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,838 - ModelTrainer - ERROR - Error in XGBoost trial 70: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,853 - ModelTrainer - ERROR - Error in XGBoost trial 72: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,865 - ModelTrainer - ERROR - Error in XGBoost trial 71: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,868 - ModelTrainer - ERROR - Error in XGBoost trial 69: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,926 - ModelTrainer - ERROR - Error in XGBoost trial 73: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:14,932 - ModelTrainer - ERROR - Error in XGBoost trial 74: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,003 - ModelTrainer - ERROR - Error in XGBoost trial 78: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,007 - ModelTrainer - ERROR - Error in XGBoost trial 75: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,019 - ModelTrainer - ERROR - Error in XGBoost trial 77: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,031 - ModelTrainer - ERROR - Error in XGBoost trial 76: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,032 - ModelTrainer - ERROR - Error in XGBoost trial 79: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,119 - ModelTrainer - ERROR - Error in XGBoost trial 80: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,123 - ModelTrainer - ERROR - Error in XGBoost trial 81: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,163 - ModelTrainer - ERROR - Error in XGBoost trial 82: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,212 - ModelTrainer - ERROR - Error in XGBoost trial 83: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,224 - ModelTrainer - ERROR - Error in XGBoost trial 84: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,309 - ModelTrainer - ERROR - Error in XGBoost trial 85: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,333 - ModelTrainer - ERROR - Error in XGBoost trial 88: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,349 - ModelTrainer - ERROR - Error in XGBoost trial 87: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,366 - ModelTrainer - ERROR - Error in XGBoost trial 86: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,374 - ModelTrainer - ERROR - Error in XGBoost trial 89: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,458 - ModelTrainer - ERROR - Error in XGBoost trial 90: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,483 - ModelTrainer - ERROR - Error in XGBoost trial 92: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,507 - ModelTrainer - ERROR - Error in XGBoost trial 93: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,563 - ModelTrainer - ERROR - Error in XGBoost trial 94: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,567 - ModelTrainer - ERROR - Error in XGBoost trial 95: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,568 - ModelTrainer - ERROR - Error in XGBoost trial 96: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,569 - ModelTrainer - ERROR - Error in XGBoost trial 91: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,618 - ModelTrainer - ERROR - Error in XGBoost trial 97: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,624 - ModelTrainer - ERROR - Error in XGBoost trial 98: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,626 - ModelTrainer - ERROR - Error in XGBoost trial 99: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,787 - ModelTrainer - ERROR - Error during xgboost optimization: No trials are completed yet.
+2024-12-08 04:45:15,789 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 530, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+2024-12-08 04:45:15,790 - ModelTrainer - WARNING - Falling back to default parameters for xgboost
+2024-12-08 04:45:15,833 - ModelTrainer - INFO - Training final xgboost model with MAPIE...
+2024-12-08 04:45:15,861 - ModelTrainer - ERROR - Error in xgboost training: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+2024-12-08 04:45:15,862 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 530, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 354, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+
+2024-12-08 04:45:15,863 - ModelTrainer - ERROR - Error in model training pipeline
+2024-12-08 04:45:15,864 - ModelTrainer - ERROR - Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 530, in train_models
+    if study.best_trial is not None:
+       ^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 568, in train_models
+    self.train_model_with_mapie(model_type, default_params[model_type].copy())
+  File "C:\Users\prite\Desktop\mlops-timeseries\mlops_timeseries\models\trainer.py", line 354, in train_model_with_mapie
+    model.fit(
+  File "C:\Users\prite\Desktop\mlops-timeseries\.venv\Lib\site-packages\xgboost\core.py", line 726, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+TypeError: XGBModel.fit() got an unexpected keyword argument 'callbacks'
+
